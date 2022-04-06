@@ -5,7 +5,7 @@ if(isset($_POST['remember']) or !isset($_POST["remember"])) {
    $email_connect = htmlspecialchars($_POST['connect_email']);
    $password_connect =$_POST['connect_password'];
    if(!empty($email_connect) AND !empty($password_connect)) {
-    $sql="SELECT * FROM users WHERE register_email='$email_connect' AND register_password = '$password_connect'";
+    $sql="SELECT * FROM users WHERE register_email='$email_connect' AND register_password = '$password_connect' AND verified=1 ";
     $result=mysqli_query($conn, $sql);
     if($result->num_rows > 0){
         $row = mysqli_fetch_assoc($result);

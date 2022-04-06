@@ -12,8 +12,8 @@ try {
     $mail->Host = 'smtp.mailtrap.io';
     $mail->SMTPAuth = true;
     $mail->Port = 2525;
-    $mail->Username = '04c374dd862075';
-    $mail->Password = '229191ab3fa7ce';
+    $mail->Username = '9af1528613fa39';
+    $mail->Password = '161a9563815fbf';
 
 
     $mail->setFrom('from@example.com', 'Mailer');  // mail de l'envoyeur

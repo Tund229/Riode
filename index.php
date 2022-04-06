@@ -1,16 +1,27 @@
 <?php
-	session_start();
+    session_start();
     include 'config.php';
 ?>
+
 <?php 
-if(isset($_GET["register_id"]) AND $_GET["register_id"] > 0){
-    $getid= $_GET["register_id"];
-    $sql="SELECT * FROM users WHERE register_id='$getid'";
-    $requser=mysqli_query($conn, $sql);
-    if($requser->num_rows > 0){
-        $userinfo = mysqli_fetch_assoc($requser);
+    if(isset($_GET["verify"])){
+        $verify= $_GET["verify"];
+        $confirm = 1;
+        $sql= "UPDATE users SET verified=$confirm WHERE code='$verify'";
+        $result=mysqli_query($conn, $sql);
+        if($result){
+            $sql="SELECT * FROM users WHERE verified='$confirm' AND code = '$verify'";
+            $result=mysqli_query($conn, $sql);
+            if($result->num_rows > 0){
+            $row = mysqli_fetch_assoc($result);
+            $_SESSION["register_id"]=$row["register_id"];
+            $_SESSION["register_name"]=$row["register_name"];
+            $_SESSION["register_email"]=$row["register_email"];
+            $_SESSION["register_password"]=$row["register_password"];
+            header("location:index.php?register_id=".$_SESSION["register_id"]);
+            }
+        }
     }
-}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -69,7 +80,7 @@ if(isset($_GET["register_id"]) AND $_GET["register_id"] > 0){
                         }else{
                     ?> 
                     <div class="header-left">
-                        <p class="welcome-msg">Welcome to Riode store message or remove it!</p>
+                        <p class="welcome-msg"> Welcome to Riode store message or remove it!</p>
                     </div>
                     <?php
                         }
@@ -112,7 +123,6 @@ if(isset($_GET["register_id"]) AND $_GET["register_id"] > 0){
                         <?php
                         }
                         ?>
-
                         <div class="dropdown login-dropdown off-canvas">
                             <div class="canvas-overlay"></div>
                             <!-- End Login Toggle -->
