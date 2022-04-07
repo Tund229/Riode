@@ -339,7 +339,7 @@ a.pswp__share--download:hover {
 .pswp--css_animation .pswp__preloader__cut {
   /* 
 			The idea of animating inner circle is based on Polymer ("material") loading indicator 
-			 by Keanu Lee https://blog.keanulee.com/2014/10/20/the-tale-of-three-spinners.html
+			 by Keanu Lee https://blog.keanulee.com/2014/10/20/the-tale-of-three-spinners.php
 		*/
   position: relative;
   width: 7px;

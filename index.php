@@ -107,7 +107,7 @@
                         </div>
                         <!-- End DropDown Menu -->
                         <span class="divider"></span>
-                        <a href="contact-us.html" class="contact d-lg-show"><i class="d-icon-map"></i>Contact</a>
+                        <a href="contact-us.php" class="contact d-lg-show"><i class="d-icon-map"></i>Contact</a>
                         <a href="#" class="help d-lg-show"><i class="d-icon-info"></i> Need Help</a>
 
                         <?php
@@ -248,7 +248,7 @@
                         <a href="#" class="mobile-menu-toggle">
                             <i class="d-icon-bars2"></i>
                         </a>
-                        <a href="index.html" class="logo">
+                        <a href="index.php" class="logo">
                             <img src="images/logo.png" alt="logo" width="153" height="44" />
                         </a>
                         <!-- End Logo -->
@@ -276,7 +276,7 @@
                         </a>
                         <span class="divider"></span>
                         <div class="dropdown wishlist wishlist-dropdown off-canvas">
-                            <a href="wishlist.html" class="wishlist-toggle">
+                            <a href="wishlist.php" class="wishlist-toggle">
                                 <i class="d-icon-heart"></i>
                             </a>
                             <div class="canvas-overlay"></div>
@@ -290,7 +290,7 @@
                                 <div class="products scrollable">
                                     <div class="product product-wishlist">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="product.php">
                                                 <img src="images/wishlist/product-1.jpg" width="100" height="100"
                                                     alt="product" />
                                             </a>
@@ -299,7 +299,7 @@
                                             </button>
                                         </figure>
                                         <div class="product-detail">
-                                            <a href="product.html" class="product-name">Girl's Dark Bag</a>
+                                            <a href="product.php" class="product-name">Girl's Dark Bag</a>
                                             <div class="price-box">
                                                 <span class="product-price">$84.00</span>
                                             </div>
@@ -308,7 +308,7 @@
                                     <!-- End of wishlist Product -->
                                     <div class="product product-wishlist">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="product.php">
                                                 <img src="images/wishlist/product-2.jpg" width="100" height="100"
                                                     alt="product" />
                                             </a>
@@ -317,7 +317,7 @@
                                             </button>
                                         </figure>
                                         <div class="product-detail">
-                                            <a href="product.html" class="product-name">Women's Fashional Comforter
+                                            <a href="product.php" class="product-name">Women's Fashional Comforter
                                             </a>
                                             <div class="price-box">
                                                 <span class="product-price">$84.00</span>
@@ -327,7 +327,7 @@
                                     <!-- End of wishlist Product -->
                                     <div class="product product-wishlist">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="product.php">
                                                 <img src="images/wishlist/product-3.jpg" width="100" height="100"
                                                     alt="product" />
                                             </a>
@@ -336,7 +336,7 @@
                                             </button>
                                         </figure>
                                         <div class="product-detail">
-                                            <a href="product.html" class="product-name">Wide Knickerbockers</a>
+                                            <a href="product.php" class="product-name">Wide Knickerbockers</a>
                                             <div class="price-box">
                                                 <span class="product-price">$84.00</span>
                                             </div>
@@ -345,7 +345,7 @@
 
                                     <!-- End of wishlist Product -->
                                 </div>
-                                <a href="wishlist.html" class="btn btn-dark wishlist-btn mt-4"><span>Go To
+                                <a href="wishlist.php" class="btn btn-dark wishlist-btn mt-4"><span>Go To
                                         Wishlist</span></a>
                                 <!-- End of Products  -->
                             </div>
@@ -371,7 +371,7 @@
                                 <div class="products scrollable">
                                     <div class="product product-cart">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="product.php">
                                                 <img src="images/cart/product-1.jpg" alt="product" width="80"
                                                     height="88" />
                                             </a>
@@ -380,7 +380,7 @@
                                             </button>
                                         </figure>
                                         <div class="product-detail">
-                                            <a href="product.html" class="product-name">Riode White Trends</a>
+                                            <a href="product.php" class="product-name">Riode White Trends</a>
                                             <div class="price-box">
                                                 <span class="product-quantity">1</span>
                                                 <span class="product-price">$21.00</span>
@@ -391,7 +391,7 @@
                                     <!-- End of Cart Product -->
                                     <div class="product product-cart">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="product.php">
                                                 <img src="images/cart/product-2.jpg" alt="product" width="80"
                                                     height="88" />
                                             </a>
@@ -400,7 +400,7 @@
                                             </button>
                                         </figure>
                                         <div class="product-detail">
-                                            <a href="product.html" class="product-name">Dark Blue Women’s
+                                            <a href="product.php" class="product-name">Dark Blue Women’s
                                                 Leomora Hat</a>
                                             <div class="price-box">
                                                 <span class="product-quantity">1</span>
@@ -417,8 +417,8 @@
                                 </div>
                                 <!-- End of Cart Total -->
                                 <div class="cart-action">
-                                    <a href="cart.html" class="btn btn-dark btn-link">View Cart</a>
-                                    <a href="checkout.html" class="btn btn-dark"><span>Go To Checkout</span></a>
+                                    <a href="cart.php" class="btn btn-dark btn-link">View Cart</a>
+                                    <a href="checkout.php" class="btn btn-dark"><span>Go To Checkout</span></a>
                                 </div>
                                 <!-- End of Cart Action -->
                             </div>
@@ -497,7 +497,7 @@
                                     <p class="slide-animate text-white ls-s mb-7"
                                         data-animation-options="{'name': 'fadeInUpShorter', 'duration': '1.2s', 'delay': '1s'}">
                                         Get Free Shipping on all orders over $99.00</p>
-                                    <a href="shop.html" class="btn btn-dark btn-rounded slide-animate"
+                                    <a href="shop.php" class="btn btn-dark btn-rounded slide-animate"
                                         data-animation-options="{'name': 'fadeInUpShorter', 'duration': '1s', 'delay': '1.8s'}">Shop
                                         Now<i class="d-icon-arrow-right"></i></a>
                                 </div>
@@ -520,7 +520,7 @@
                                     <p class="slide-animate font-primary ls-s text-dark mb-4"
                                         data-animation-options="{'name': 'fadeInUp', 'duration': '1s', 'delay': '1.2s'}">
                                         Up to 70% off on all products <br />online &amp; Free Shipping over $90</p>
-                                    <a href="shop.html" class="btn btn-dark btn-rounded slide-animate"
+                                    <a href="shop.php" class="btn btn-dark btn-rounded slide-animate"
                                         data-animation-options="{'name': 'fadeInUp', 'duration': '1s', 'delay': '1.4s'}">Shop
                                         Now<i class="d-icon-arrow-right"></i></a>
                                 </div>
@@ -542,7 +542,7 @@
                                         data-animation-options="{'name': 'fadeInUp', 'duration': '1s', 'delay': '.8s'}">
                                         Up to 50% Off this Season’s &amp; Get free shipping<br />on all orders over
                                         $199.00</p>
-                                    <a href="shop.html" class="btn btn-dark btn-rounded slide-animate mb-1"
+                                    <a href="shop.php" class="btn btn-dark btn-rounded slide-animate mb-1"
                                         data-animation-options="{'name': 'fadeInLeft', 'duration': '1s', 'delay': '1.5s'}">Shop
                                         Now<i class="d-icon-arrow-right"></i></a>
                                 </div>
@@ -612,30 +612,30 @@
                         </div>
                     </div>
                 </section>
-
+                                     <!-- OUR CATEGORIES -->
                 <section class="pt-10 mt-7 appear-animate" data-animation-options="{
                     'delay': '.3s'
-                }">
+                    }">
                     <div class="container">
                         <h2 class="title title-center mb-5">Our Categories</h2>
                         <div class="row">
                             <div class="col-xs-6 col-lg-3 mb-4">
                                 <div class="category category-default1 category-absolute banner-radius overlay-zoom">
-                                    <a href="shop.html">
+                                    <a href="shop.php">
                                         <figure class="category-media">
                                             <img src="images/categories/category1.jpg" alt="category" width="280"
                                                 height="280" style="background-color: #8c8c8d;" />
                                         </figure>
                                     </a>
                                     <div class="category-content">
-                                        <h4 class="category-name font-weight-bold ls-l"><a href="shop.html">For
+                                        <h4 class="category-name font-weight-bold ls-l"><a href="shop.php">For
                                                 Men's</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-lg-3 mb-4">
                                 <div class="category category-default1 category-absolute banner-radius overlay-zoom">
-                                    <a href="shop.html">
+                                    <a href="shop.php">
                                         <figure class="category-media">
                                             <img src="images/categories/category2.jpg" alt="category" width="280"
                                                 height="280" style="background-color: #bcbdb7;" />
@@ -643,34 +643,34 @@
                                     </a>
                                     <div class="category-content">
                                         <h4 class="category-name font-weight-bold ls-l"><a
-                                                href="shop.html">Accessories</a></h4>
+                                                href="shop.php">Accessories</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-lg-3 mb-4">
                                 <div class="category category-default1 category-absolute banner-radius overlay-zoom">
-                                    <a href="shop.html">
+                                    <a href="shop.php">
                                         <figure class="category-media">
                                             <img src="images/categories/category3.jpg" alt="category" width="280"
                                                 height="280" style="background-color: #ececef;" />
                                         </figure>
                                     </a>
                                     <div class="category-content">
-                                        <h4 class="category-name font-weight-bold ls-l"><a href="shop.html">Fashionable
+                                        <h4 class="category-name font-weight-bold ls-l"><a href="shop.php">Fashionable
                                                 Women's</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-lg-3 mb-4">
                                 <div class="category category-default1 category-absolute banner-radius overlay-zoom">
-                                    <a href="shop.html">
+                                    <a href="shop.php">
                                         <figure class="category-media">
                                             <img src="images/categories/category4.jpg" alt="category" width="280"
                                                 height="280" style="background-color: #e8eded;" />
                                         </figure>
                                     </a>
                                     <div class="category-content font-weight-bold">
-                                        <h4 class="category-name font-weight-bold ls-l"><a href="shop.html">Cosmetic</a>
+                                        <h4 class="category-name font-weight-bold ls-l"><a href="shop.php">Cosmetic</a>
                                         </h4>
                                     </div>
                                 </div>
@@ -678,11 +678,11 @@
                         </div>
                     </div>
                 </section>
-
+                                    <!-- BEST SELLER -->
                 <section class="product-wrapper container appear-animate mt-6 mt-md-10 pt-4 pb-8"
                     data-animation-options="{
                     'delay': '.3s'
-                }">
+                        }">
                     <h2 class="title title-center mb-5">Best Sellers</h2>
                     <div class="owl-carousel owl-theme row owl-nav-full cols-2 cols-md-3 cols-lg-4" data-owl-options="{
                         'items': 5,
@@ -706,7 +706,7 @@
                     }">
                         <div class="product text-center">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="product.php">
                                     <img src="images/demos/demo1/products/product1.jpg" alt="Blue Pinafore Denim Dress"
                                         width="280" height="315" style="background-color: #f2f3f5;" />
                                 </a>
@@ -725,10 +725,10 @@
                             </figure>
                             <div class="product-details">
                                 <div class="product-cat">
-                                    <a href="shop-grid-3cols.html">Clothing</a>
+                                    <a href="shop-grid-3cols.php">Clothing</a>
                                 </div>
                                 <h3 class="product-name">
-                                    <a href="product.html">Solid pattern in fashion summer dress</a>
+                                    <a href="product.php">Solid pattern in fashion summer dress</a>
                                 </h3>
                                 <div class="product-price">
                                     <span class="price">$140.00</span>
@@ -738,13 +738,13 @@
                                         <span class="ratings" style="width:100%"></span>
                                         <span class="tooltiptext tooltip-top"></span>
                                     </div>
-                                    <a href="product.html" class="rating-reviews">( 12 reviews )</a>
+                                    <a href="product.php" class="rating-reviews">( 12 reviews )</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product text-center">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="product.php">
                                     <img src="images/demos/demo1/products/product2.jpg" alt="Blue Pinafore Denim Dress"
                                         width="280" height="315" style="background-color: #f2f3f5;" />
                                 </a>
@@ -763,10 +763,10 @@
                             </figure>
                             <div class="product-details">
                                 <div class="product-cat">
-                                    <a href="shop-grid-3cols.html">Bags & Backpacks</a>
+                                    <a href="shop-grid-3cols.php">Bags & Backpacks</a>
                                 </div>
                                 <h3 class="product-name">
-                                    <a href="product.html">Mackintosh Poket backpack</a>
+                                    <a href="product.php">Mackintosh Poket backpack</a>
                                 </h3>
                                 <div class="product-price">
                                     <ins class="new-price">$125.99</ins><del class="old-price">$160.99</del>
@@ -776,13 +776,13 @@
                                         <span class="ratings" style="width:60%"></span>
                                         <span class="tooltiptext tooltip-top"></span>
                                     </div>
-                                    <a href="product.html" class="rating-reviews">( 8 reviews )</a>
+                                    <a href="product.php" class="rating-reviews">( 8 reviews )</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product text-center">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="product.php">
                                     <img src="images/demos/demo1/products/product3.jpg" alt="Blue Pinafore Denim Dress"
                                         width="280" height="315" style="background-color: #f2f3f5;" />
                                 </a>
@@ -799,10 +799,10 @@
                             </figure>
                             <div class="product-details">
                                 <div class="product-cat">
-                                    <a href="shop-grid-3cols.html">Clothing</a>
+                                    <a href="shop-grid-3cols.php">Clothing</a>
                                 </div>
                                 <h3 class="product-name">
-                                    <a href="product.html">Fashionable Orginal Trucker</a>
+                                    <a href="product.php">Fashionable Orginal Trucker</a>
                                 </h3>
                                 <div class="product-price">
                                     <span class="price">$78.64</span>
@@ -812,13 +812,13 @@
                                         <span class="ratings" style="width:40%"></span>
                                         <span class="tooltiptext tooltip-top"></span>
                                     </div>
-                                    <a href="product.html" class="rating-reviews">( 2 reviews )</a>
+                                    <a href="product.php" class="rating-reviews">( 2 reviews )</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product text-center">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="product.php">
                                     <img src="images/demos/demo1/products/product4.jpg" alt="Blue Pinafore Denim Dress"
                                         width="280" height="315" style="background-color: #f2f3f5;" />
                                 </a>
@@ -837,10 +837,10 @@
                             </figure>
                             <div class="product-details">
                                 <div class="product-cat">
-                                    <a href="shop-grid-3cols.html">Clothing</a>
+                                    <a href="shop-grid-3cols.php">Clothing</a>
                                 </div>
                                 <h3 class="product-name">
-                                    <a href="product.html">Women Red Fur Overcoat</a>
+                                    <a href="product.php">Women Red Fur Overcoat</a>
                                 </h3>
                                 <div class="product-price">
                                     <span class="price">$184.00</span>
@@ -850,13 +850,13 @@
                                         <span class="ratings" style="width:80%"></span>
                                         <span class="tooltiptext tooltip-top"></span>
                                     </div>
-                                    <a href="product.html" class="rating-reviews">( 6 reviews )</a>
+                                    <a href="product.php" class="rating-reviews">( 6 reviews )</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product text-center">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="product.php">
                                     <img src="images/demos/demo1/products/product2.jpg" alt="Blue Pinafore Denim Dress"
                                         width="280" height="315" style="background-color: #f2f3f5;" />
                                 </a>
@@ -875,10 +875,10 @@
                             </figure>
                             <div class="product-details">
                                 <div class="product-cat">
-                                    <a href="shop-grid-3cols.html">Bags & Backpacks</a>
+                                    <a href="shop-grid-3cols.php">Bags & Backpacks</a>
                                 </div>
                                 <h3 class="product-name">
-                                    <a href="product.html">Mackintosh Poket backpack</a>
+                                    <a href="product.php">Mackintosh Poket backpack</a>
                                 </h3>
                                 <div class="product-price">
                                     <ins class="new-price">$125.99</ins><del class="old-price">$160.99</del>
@@ -888,13 +888,13 @@
                                         <span class="ratings" style="width:60%"></span>
                                         <span class="tooltiptext tooltip-top"></span>
                                     </div>
-                                    <a href="product.html" class="rating-reviews">( 8 reviews )</a>
+                                    <a href="product.php" class="rating-reviews">( 8 reviews )</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
+                                    <!-- BANNER GROUP -->
                 <section class="banner-group mt-4">
                     <div class="container">
                         <h2 class="title d-none">Banner Group</h2>
@@ -913,7 +913,7 @@
                                             Starting at $29
                                         </h4>
                                         <hr class="banner-divider">
-                                        <a href="shop.html" class="btn btn-white btn-link btn-underline">Shop Now<i
+                                        <a href="shop.php" class="btn btn-white btn-link btn-underline">Shop Now<i
                                                 class="d-icon-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -932,7 +932,7 @@
                                             </h4>
                                             <h3 class="banner-title text-primary font-weight-bold lh-1 mb-0">Sale</h3>
                                         </div>
-                                        <a href="shop.html"
+                                        <a href="shop.php"
                                             class="btn btn-primary btn-outline btn-rounded font-weight-bold text-white">Shop
                                             Now<i class="d-icon-arrow-right"></i></a>
                                     </div>
@@ -950,7 +950,7 @@
                                         <h4 class="banner-subtitle text-uppercase font-weight-normal text-white">30% Off
                                         </h4>
                                         <hr class="banner-divider">
-                                        <a href="shop.html" class="btn btn-white btn-link btn-underline">Shop Now<i
+                                        <a href="shop.php" class="btn btn-white btn-link btn-underline">Shop Now<i
                                                 class="d-icon-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -958,11 +958,11 @@
                         </div>
                     </div>
                 </section>
-
+                                        <!-- Our Featured -->
                 <section class="product-wrapper mt-6 mt-md-10 pt-4 mb-10 pb-2 container appear-animate"
                     data-animation-options="{
                     'delay': '.6s'
-                }">
+                        }">
                     <h2 class="title title-center">Our Featured</h2>
                     <div class="owl-carousel owl-theme row cols-2 cols-md-3 cols-lg-4 cols-xl-5" data-owl-options="{
                         'items': 5,
@@ -989,7 +989,7 @@
                     }">
                         <div class="product text-center">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="product.php">
                                     <img src="images/demos/demo1/products/product5.jpg" alt="Blue Pinafore Denim Dress"
                                         width="220" height="245" style="background-color: #f2f3f5;" />
                                 </a>
@@ -1005,10 +1005,10 @@
                             </figure>
                             <div class="product-details">
                                 <div class="product-cat">
-                                    <a href="shop-grid-3cols.html">Watches</a>
+                                    <a href="shop-grid-3cols.php">Watches</a>
                                 </div>
                                 <h3 class="product-name">
-                                    <a href="product.html">Fashion Electric Wrist Watch</a>
+                                    <a href="product.php">Fashion Electric Wrist Watch</a>
                                 </h3>
                                 <div class="product-price">
                                     <span class="price">$270.99</span>
@@ -1018,13 +1018,13 @@
                                         <span class="ratings" style="width:40%"></span>
                                         <span class="tooltiptext tooltip-top"></span>
                                     </div>
-                                    <a href="product.html" class="rating-reviews">( 15 reviews )</a>
+                                    <a href="product.php" class="rating-reviews">( 15 reviews )</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product text-center">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="product.php">
                                     <img src="images/demos/demo1/products/product6.jpg" alt="Blue Pinafore Denim Dress"
                                         width="220" height="245" style="background-color: #f2f3f5;" />
                                 </a>
@@ -1043,10 +1043,10 @@
                             </figure>
                             <div class="product-details">
                                 <div class="product-cat">
-                                    <a href="shop-grid-3cols.html">Women</a>
+                                    <a href="shop-grid-3cols.php">Women</a>
                                 </div>
                                 <h3 class="product-name">
-                                    <a href="product.html">Hempen Hood a Mourner</a>
+                                    <a href="product.php">Hempen Hood a Mourner</a>
                                 </h3>
                                 <div class="product-price">
                                     <span class="price">$12.83</span>
@@ -1056,13 +1056,13 @@
                                         <span class="ratings" style="width:20%"></span>
                                         <span class="tooltiptext tooltip-top"></span>
                                     </div>
-                                    <a href="product.html" class="rating-reviews">( 3 reviews )</a>
+                                    <a href="product.php" class="rating-reviews">( 3 reviews )</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product text-center">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="product.php">
                                     <img src="images/demos/demo1/products/product7.jpg" alt="Blue Pinafore Denim Dress"
                                         width="220" height="245" style="background-color: #f2f3f5;" />
                                 </a>
@@ -1078,10 +1078,10 @@
                             </figure>
                             <div class="product-details">
                                 <div class="product-cat">
-                                    <a href="shop-grid-3cols.html">Women</a>
+                                    <a href="shop-grid-3cols.php">Women</a>
                                 </div>
                                 <h3 class="product-name">
-                                    <a href="product.html">Women Beautiful Headgear</a>
+                                    <a href="product.php">Women Beautiful Headgear</a>
                                 </h3>
                                 <div class="product-price">
                                     <span class="price">$78.24</span>
@@ -1091,13 +1091,13 @@
                                         <span class="ratings" style="width:40%"></span>
                                         <span class="tooltiptext tooltip-top"></span>
                                     </div>
-                                    <a href="product.html" class="rating-reviews">( 8 reviews )</a>
+                                    <a href="product.php" class="rating-reviews">( 8 reviews )</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product text-center">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="product.php">
                                     <img src="images/demos/demo1/products/product8.jpg" alt="Blue Pinafore Denim Dress"
                                         width="220" height="245" style="background-color: #f2f3f5;" />
                                 </a>
@@ -1116,10 +1116,10 @@
                             </figure>
                             <div class="product-details">
                                 <div class="product-cat">
-                                    <a href="shop-grid-3cols.html">Shoes</a>
+                                    <a href="shop-grid-3cols.php">Shoes</a>
                                 </div>
                                 <h3 class="product-name">
-                                    <a href="product.html">Converse Training Shoes</a>
+                                    <a href="product.php">Converse Training Shoes</a>
                                 </h3>
                                 <div class="product-price">
                                     <span class="price">$113.00</span>
@@ -1129,13 +1129,13 @@
                                         <span class="ratings" style="width:80%"></span>
                                         <span class="tooltiptext tooltip-top"></span>
                                     </div>
-                                    <a href="product.html" class="rating-reviews">( 11 reviews )</a>
+                                    <a href="product.php" class="rating-reviews">( 11 reviews )</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product text-center">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="product.php">
                                     <img src="images/demos/demo1/products/product9.jpg" alt="Blue Pinafore Denim Dress"
                                         width="220" height="245" style="background-color: #f2f3f5;" />
                                 </a>
@@ -1154,10 +1154,10 @@
                             </figure>
                             <div class="product-details">
                                 <div class="product-cat">
-                                    <a href="shop-grid-3cols.html">Bags & Backpacks</a>
+                                    <a href="shop-grid-3cols.php">Bags & Backpacks</a>
                                 </div>
                                 <h3 class="product-name">
-                                    <a href="product.html">Women's Fashion Handbag</a>
+                                    <a href="product.php">Women's Fashion Handbag</a>
                                 </h3>
                                 <div class="product-price">
                                     <ins class="new-price">$53.99</ins><del class="old-price">$67.99</del>
@@ -1167,7 +1167,7 @@
                                         <span class="ratings" style="width:60%"></span>
                                         <span class="tooltiptext tooltip-top"></span>
                                     </div>
-                                    <a href="product.html" class="rating-reviews">( 16 reviews )</a>
+                                    <a href="product.php" class="rating-reviews">( 16 reviews )</a>
                                 </div>
                             </div>
                         </div>
@@ -1185,12 +1185,12 @@
                             </h4>
                             <h3 class="banner-title font-weight-bold text-white">Summer Season Sale</h3>
                             <p class="text-white ls-s">Free shipping on orders over $99</p>
-                            <a href="shop.html" class="btn btn-primary btn-rounded btn-icon-right">Shop Now<i
+                            <a href="shop.php" class="btn btn-primary btn-rounded btn-icon-right">Shop Now<i
                                     class="d-icon-arrow-right"></i></a>
                         </div>
                     </div>
                 </section>
-
+                                        <!-- Featured Articles -->
                 <section class="blog-post-wrapper mt-6 mt-md-10 pt-7 appear-animate"
                     data-animation-options="{'name': 'fadeIn', 'duration': '1s'}">
                     <div class="container">
@@ -1215,7 +1215,7 @@
                             <div class="blog-post mb-4">
                                 <article class="post post-frame overlay-zoom">
                                     <figure class="post-media">
-                                        <a href="post-single.html">
+                                        <a href="post-single.php">
                                             <img src="images/blog/frame/1.jpg" alt="Blog post" width="340" height="206"
                                                 style="background-color: #919fbc;" />
                                         </a>
@@ -1225,11 +1225,11 @@
                                         </div>
                                     </figure>
                                     <div class="post-details">
-                                        <h4 class="post-title"><a href="post-single.html">20% Off Coupon for Cyber
+                                        <h4 class="post-title"><a href="post-single.php">20% Off Coupon for Cyber
                                                 Week</a></h4>
                                         <p class="post-content">Lorem ipsum dolor sit amet,onadipiscing elit, sedsd
                                             doeiu smod tempo...</p>
-                                        <a href="post-single.html" class="btn btn-primary btn-link btn-underline">Read
+                                        <a href="post-single.php" class="btn btn-primary btn-link btn-underline">Read
                                             More<i class="d-icon-arrow-right"></i></a>
                                     </div>
                                 </article>
@@ -1237,7 +1237,7 @@
                             <div class="blog-post mb-4">
                                 <article class="post post-frame overlay-zoom">
                                     <figure class="post-media">
-                                        <a href="post-single.html">
+                                        <a href="post-single.php">
                                             <img src="images/blog/frame/2.jpg" alt="Blog post" width="340" height="206"
                                                 style="background-color: #e5e6e6;" />
                                         </a>
@@ -1247,11 +1247,11 @@
                                         </div>
                                     </figure>
                                     <div class="post-details">
-                                        <h4 class="post-title"><a href="post-single.html">20% Off Coupon for Cyber
+                                        <h4 class="post-title"><a href="post-single.php">20% Off Coupon for Cyber
                                                 Week</a></h4>
                                         <p class="post-content">Lorem ipsum dolor sit amet,onadipiscing elit, sedsd
                                             doeiu smod tempo...</p>
-                                        <a href="post-single.html" class="btn btn-primary btn-link btn-underline">Read
+                                        <a href="post-single.php" class="btn btn-primary btn-link btn-underline">Read
                                             More<i class="d-icon-arrow-right"></i></a>
                                     </div>
                                 </article>
@@ -1259,7 +1259,7 @@
                             <div class="blog-post mb-4">
                                 <article class="post post-frame overlay-zoom">
                                     <figure class="post-media">
-                                        <a href="post-single.html">
+                                        <a href="post-single.php">
                                             <img src="images/blog/frame/3.jpg" alt="Blog post" width="340" height="206"
                                                 style="background-color: #eaeef1;" />
                                         </a>
@@ -1269,11 +1269,11 @@
                                         </div>
                                     </figure>
                                     <div class="post-details">
-                                        <h4 class="post-title"><a href="post-single.html">20% Off Coupon for Cyber
+                                        <h4 class="post-title"><a href="post-single.php">20% Off Coupon for Cyber
                                                 Week</a></h4>
                                         <p class="post-content">Lorem ipsum dolor sit amet,onadipiscing elit, sedsd
                                             doeiu smod tempo...</p>
-                                        <a href="post-single.html" class="btn btn-primary btn-link btn-underline">Read
+                                        <a href="post-single.php" class="btn btn-primary btn-link btn-underline">Read
                                             More<i class="d-icon-arrow-right"></i></a>
                                     </div>
                                 </article>
@@ -1281,10 +1281,10 @@
                         </div>
                     </div>
                 </section>
-
+                                           <!-- Our Brand-->
                 <section class="mt-2 pb-6 pt-10 pb-md-10 appear-animate" data-animation-options="{
                     'delay': '.3s'
-                }">
+                        }">
                     <h2 class="title d-none">Our Brand</h2>
                     <div class="container">
                         <div class="owl-carousel owl-theme row brand-carousel cols-xl-6 cols-lg-5 cols-md-4 cols-sm-3 cols-2"
@@ -1327,7 +1327,7 @@
                         </div>
                     </div>
                 </section>
-
+                                            <!-- Sale Products-->
                 <section class="product-widget-wrapper pb-2 pb-md-10 appear-animate">
                     <div class="container">
                         <div class="row">
@@ -1340,14 +1340,14 @@
                                     <div class="products-col">
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product10.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Women’s Beautiful
+                                                    <a href="product.php">Women’s Beautiful
                                                         Headgear</a>
                                                 </h3>
                                                 <div class="product-price">
@@ -1363,14 +1363,14 @@
                                         </div>
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product11.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Hand Electric Cell</a>
+                                                    <a href="product.php">Hand Electric Cell</a>
                                                 </h3>
                                                 <div class="product-price">
                                                     <span class="price">$26.00</span>
@@ -1385,14 +1385,14 @@
                                         </div>
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product12.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Women Hempen Hood
+                                                    <a href="product.php">Women Hempen Hood
                                                         a Mourner</a>
                                                 </h3>
                                                 <div class="product-price">
@@ -1418,14 +1418,14 @@
                                     <div class="products-col">
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product13.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Fashionable Orginal
+                                                    <a href="product.php">Fashionable Orginal
                                                         Trucker</a>
                                                 </h3>
                                                 <div class="product-price">
@@ -1441,14 +1441,14 @@
                                         </div>
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product14.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Men Summer Sneaker</a>
+                                                    <a href="product.php">Men Summer Sneaker</a>
                                                 </h3>
                                                 <div class="product-price">
                                                     <span class="price">$79.45</span>
@@ -1463,14 +1463,14 @@
                                         </div>
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product15.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Season Sports Cap</a>
+                                                    <a href="product.php">Season Sports Cap</a>
                                                 </h3>
                                                 <div class="product-price">
                                                     <span class="price">$64.27</span>
@@ -1495,14 +1495,14 @@
                                     <div class="products-col">
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product16.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Blue Sports Shoes</a>
+                                                    <a href="product.php">Blue Sports Shoes</a>
                                                 </h3>
                                                 <div class="product-price">
                                                     <span class="price">$36.00</span>
@@ -1517,14 +1517,14 @@
                                         </div>
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product17.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Fashion Handbag</a>
+                                                    <a href="product.php">Fashion Handbag</a>
                                                 </h3>
                                                 <div class="product-price">
                                                     <ins class="new-price">$53.99</ins><del
@@ -1540,14 +1540,14 @@
                                         </div>
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product18.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Women’s Beautiful
+                                                    <a href="product.php">Women’s Beautiful
                                                         Headgear</a>
                                                 </h3>
                                                 <div class="product-price">
@@ -1573,14 +1573,14 @@
                                     <div class="products-col">
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product19.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Fashion Electric Wrist
+                                                    <a href="product.php">Fashion Electric Wrist
                                                         Watch</a>
                                                 </h3>
                                                 <div class="product-price">
@@ -1596,14 +1596,14 @@
                                         </div>
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product20.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Mackintosh Poket
+                                                    <a href="product.php">Mackintosh Poket
                                                         Backpack</a>
                                                 </h3>
                                                 <div class="product-price">
@@ -1620,14 +1620,14 @@
                                         </div>
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
-                                                <a href="product.html">
+                                                <a href="product.php">
                                                     <img src="images/demos/demo1/products/product21.jpg" alt="product"
                                                         width="100" height="114" style="background-color: #f2f3f5;" />
                                                 </a>
                                             </figure>
                                             <div class="product-details">
                                                 <h3 class="product-name">
-                                                    <a href="product.html">Hempen Hood a
+                                                    <a href="product.php">Hempen Hood a
                                                         Mourner
                                                     </a>
                                                 </h3>
@@ -1658,7 +1658,7 @@
                 <div class="footer-top">
                     <div class="row align-items-center">
                         <div class="col-lg-3">
-                            <a href="demo1.html" class="logo-footer">
+                            <a href="demo1.php" class="logo-footer">
                                 <img src="images/logo-footer.png" alt="logo-footer" width="154" height="43" />
                             </a>
                             <!-- End FooterLogo -->
@@ -1714,7 +1714,7 @@
                                 <h4 class="widget-title">My Account</h4>
                                 <ul class="widget-body">
                                     <li>
-                                        <a href="about-us.html">About Us</a>
+                                        <a href="about-us.php">About Us</a>
                                     </li>
                                     <li>
                                         <a href="#">Order History</a>
@@ -1740,10 +1740,10 @@
                                         <a href="#">Sign in</a>
                                     </li>
                                     <li>
-                                        <a href="cart.html">View Cart</a>
+                                        <a href="cart.php">View Cart</a>
                                     </li>
                                     <li>
-                                        <a href="wishlist.html">My Wishlist</a>
+                                        <a href="wishlist.php">My Wishlist</a>
                                     </li>
                                     <li>
                                         <a href="#">Track My Order</a>
@@ -1818,11 +1818,11 @@
             <i class="d-icon-home"></i>
             <span>Home</span>
         </a>
-        <a href="shop.html" class="sticky-link">
+        <a href="shop.php" class="sticky-link">
             <i class="d-icon-volume"></i>
             <span>Categories</span>
         </a>
-        <a href="wishlist.html" class="sticky-link">
+        <a href="wishlist.php" class="sticky-link">
             <i class="d-icon-heart"></i>
             <span>Wishlist</span>
         </a>
@@ -1912,7 +1912,7 @@
                     if(session_start() AND isset($_SESSION['register_id'])){
                     ?>
                     <li>
-                        <a href="account.html">
+                        <a href="account.php">
                             <i class="fas fa-regular fa-user"></i>
                             <span><?php echo " ".$_SESSION['register_name'] ;?></span>
                         </a>

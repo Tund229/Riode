@@ -75,7 +75,7 @@
                         </div>
                         <!-- End DropDown Menu -->
                         <span class="divider"></span>
-                        <a href="contact-us.html" class="contact d-lg-show"><i class="d-icon-map"></i>Contact</a>
+                        <a href="contact-us.php" class="contact d-lg-show"><i class="d-icon-map"></i>Contact</a>
                         <a href="#" class="help d-lg-show"><i class="d-icon-info"></i> Need Help</a>
                         <?php
                             if(session_start() AND isset($_SESSION['register_id'])){
@@ -83,10 +83,10 @@
                         <?php
                         }else{
                         ?>
-                        <a class="login-link" href="ajax/log.html" data-toggle="login-modal"><i
+                        <a class="login-link" href="ajax/log.php" data-toggle="login-modal"><i
                                 class="d-icon-user"></i>Sign in</a>
                         <span class="delimiter">/</span>
-                        <a class="register-link ml-0" href="ajax/log.html" data-toggle="login-modal">Register</a>
+                        <a class="register-link ml-0" href="ajax/log.php" data-toggle="login-modal">Register</a>
                         <!-- End of Login -->
                         <?php
                         }
@@ -101,7 +101,7 @@
                         <a href="#" class="mobile-menu-toggle">
                             <i class="d-icon-bars2"></i>
                         </a>
-                        <a href="demo1.html" class="logo">
+                        <a href="demo1.php" class="logo">
                             <img src="images/logo.png" alt="logo" width="153" height="44" />
                         </a>
                         <!-- End Logo -->
@@ -129,7 +129,7 @@
                         </a>
                         <span class="divider"></span>
                         <div class="dropdown wishlist wishlist-dropdown off-canvas">
-                            <a href="wishlist.html" class="wishlist-toggle">
+                            <a href="wishlist.php" class="wishlist-toggle">
                                 <i class="d-icon-heart"></i>
                             </a>
                             <div class="canvas-overlay"></div>
@@ -143,7 +143,7 @@
                                 <div class="products scrollable">
                                     <div class="product product-wishlist">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="product.php">
                                                 <img src="images/wishlist/product-1.jpg" width="100" height="100"
                                                     alt="product" />
                                             </a>
@@ -152,7 +152,7 @@
                                             </button>
                                         </figure>
                                         <div class="product-detail">
-                                            <a href="product.html" class="product-name">Girl's Dark Bag</a>
+                                            <a href="product.php" class="product-name">Girl's Dark Bag</a>
                                             <div class="price-box">
                                                 <span class="product-price">$84.00</span>
                                             </div>
@@ -161,7 +161,7 @@
                                     <!-- End of wishlist Product -->
                                     <div class="product product-wishlist">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="product.php">
                                                 <img src="images/wishlist/product-2.jpg" width="100" height="100"
                                                     alt="product" />
                                             </a>
@@ -170,7 +170,7 @@
                                             </button>
                                         </figure>
                                         <div class="product-detail">
-                                            <a href="product.html" class="product-name">Women's Fashional Comforter
+                                            <a href="product.php" class="product-name">Women's Fashional Comforter
                                             </a>
                                             <div class="price-box">
                                                 <span class="product-price">$84.00</span>
@@ -180,7 +180,7 @@
                                     <!-- End of wishlist Product -->
                                     <div class="product product-wishlist">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="product.php">
                                                 <img src="images/wishlist/product-3.jpg" width="100" height="100"
                                                     alt="product" />
                                             </a>
@@ -189,7 +189,7 @@
                                             </button>
                                         </figure>
                                         <div class="product-detail">
-                                            <a href="product.html" class="product-name">Wide Knickerbockers</a>
+                                            <a href="product.php" class="product-name">Wide Knickerbockers</a>
                                             <div class="price-box">
                                                 <span class="product-price">$84.00</span>
                                             </div>
@@ -198,7 +198,7 @@
 
                                     <!-- End of wishlist Product -->
                                 </div>
-                                <a href="wishlist.html" class="btn btn-dark wishlist-btn mt-4"><span>Go To
+                                <a href="wishlist.php" class="btn btn-dark wishlist-btn mt-4"><span>Go To
                                         Wishlist</span></a>
                                 <!-- End of Products  -->
                             </div>
@@ -271,7 +271,7 @@
                                 <!-- End of Cart Total -->
                                 <div class="cart-action">
                                     <a href="cart.php" class="btn btn-dark btn-link">View Cart</a>
-                                    <a href="checkout.html" class="btn btn-dark"><span>Go To Checkout</span></a>
+                                    <a href="checkout.php" class="btn btn-dark"><span>Go To Checkout</span></a>
                                 </div>
                                 <!-- End of Cart Action -->
                             </div>
@@ -501,7 +501,7 @@
                 <div class="footer-top">
                     <div class="row align-items-center">
                         <div class="col-lg-3">
-                            <a href="demo1.html" class="logo-footer">
+                            <a href="demo1.php" class="logo-footer">
                                 <img src="images/logo-footer.png" alt="logo-footer" width="154" height="43" />
                             </a>
                             <!-- End FooterLogo -->
@@ -557,7 +557,7 @@
                                 <h4 class="widget-title">My Account</h4>
                                 <ul class="widget-body">
                                     <li>
-                                        <a href="about-us.html">About Us</a>
+                                        <a href="about-us.php">About Us</a>
                                     </li>
                                     <li>
                                         <a href="#">Order History</a>
@@ -583,10 +583,10 @@
                                         <a href="#">Sign in</a>
                                     </li>
                                     <li>
-                                        <a href="cart.html">View Cart</a>
+                                        <a href="cart.php">View Cart</a>
                                     </li>
                                     <li>
-                                        <a href="wishlist.html">My Wishlist</a>
+                                        <a href="wishlist.php">My Wishlist</a>
                                     </li>
                                     <li>
                                         <a href="#">Track My Order</a>
@@ -661,11 +661,11 @@
             <i class="d-icon-home"></i>
             <span>Home</span>
         </a>
-        <a href="shop.html" class="sticky-link">
+        <a href="shop.php" class="sticky-link">
             <i class="d-icon-volume"></i>
             <span>Categories</span>
         </a>
-        <a href="wishlist.html" class="sticky-link">
+        <a href="wishlist.php" class="sticky-link">
             <i class="d-icon-heart"></i>
             <span>Wishlist</span>
         </a>
@@ -755,7 +755,7 @@
                     if(session_start() AND isset($_SESSION['register_id'])){
                     ?>
                     <li>
-                        <a href="account.html">
+                        <a href="account.php">
                             <i class="fas fa-regular fa-user"></i>
                             <span><?php echo " ".$_SESSION['register_name'] ;?></span>
                         </a>

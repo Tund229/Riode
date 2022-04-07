@@ -1643,7 +1643,7 @@
 				// Allow dragging only via left mouse button.
 				// As this handler is not added in IE8 - we ignore e.which
 				// 
-				// http://www.quirksmode.org/js/events_properties.html
+				// http://www.quirksmode.org/js/events_properties.php
 				// https://developer.mozilla.org/en-US/docs/Web/API/event.button
 				if (e.type === 'mousedown' && e.button > 0) {
 					return;
@@ -3051,11 +3051,11 @@
 
 
 
-					if (!item.src && item.html) {
-						if (item.html.tagName) {
-							baseDiv.appendChild(item.html);
+					if (!item.src && item.php) {
+						if (item.php.tagName) {
+							baseDiv.appendChild(item.php);
 						} else {
-							baseDiv.innerHTML = item.html;
+							baseDiv.innerHTML = item.php;
 						}
 					}
 

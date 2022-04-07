@@ -108,7 +108,7 @@
 						<!-- End Header Search -->
 
 						<div class="dropdown wishlist wishlist-dropdown off-canvas mr-4 d-lg-show">
-							<a href="wishlist.html" class="wishlist-toggle">
+							<a href="wishlist.php" class="wishlist-toggle">
 								<i class="d-icon-heart"></i>
 							</a>
 							<div class="canvas-overlay"></div>
@@ -122,7 +122,7 @@
 								<div class="products scrollable">
 									<div class="product product-wishlist">
 										<figure class="product-media">
-											<a href="product.html">
+											<a href="product.php">
 												<img src="images/wishlist/product-1.jpg" width="100" height="100"
 													alt="product" />
 											</a>
@@ -131,7 +131,7 @@
 											</button>
 										</figure>
 										<div class="product-detail">
-											<a href="product.html" class="product-name">Girl's Dark Bag</a>
+											<a href="product.php" class="product-name">Girl's Dark Bag</a>
 											<div class="price-box">
 												<span class="product-price">$84.00</span>
 											</div>
@@ -140,7 +140,7 @@
 									<!-- End of wishlist Product -->
 									<div class="product product-wishlist">
 										<figure class="product-media">
-											<a href="product.html">
+											<a href="product.php">
 												<img src="images/wishlist/product-2.jpg" width="100" height="100"
 													alt="product" />
 											</a>
@@ -149,7 +149,7 @@
 											</button>
 										</figure>
 										<div class="product-detail">
-											<a href="product.html" class="product-name">Women's Fashional Comforter
+											<a href="product.php" class="product-name">Women's Fashional Comforter
 											</a>
 											<div class="price-box">
 												<span class="product-price">$84.00</span>
@@ -177,7 +177,7 @@
 
 									<!-- End of wishlist Product -->
 								</div>
-								<a href="wishlist.html" class="btn btn-dark wishlist-btn mt-4"><span>Go To
+								<a href="wishlist.php" class="btn btn-dark wishlist-btn mt-4"><span>Go To
 										Wishlist</span></a>
 								<!-- End of Products  -->
 							</div>
@@ -199,7 +199,7 @@
 								<div class="products scrollable">
 									<div class="product product-cart">
 										<figure class="product-media">
-											<a href="product.html">
+											<a href="product.php">
 												<img src="images/cart/product-1.jpg" alt="product" width="80"
 													height="88" />
 											</a>
@@ -208,7 +208,7 @@
 											</button>
 										</figure>
 										<div class="product-detail">
-											<a href="product.html" class="product-name">Riode White Trends</a>
+											<a href="product.php" class="product-name">Riode White Trends</a>
 											<div class="price-box">
 												<span class="product-quantity">1</span>
 												<span class="product-price">$21.00</span>
@@ -219,7 +219,7 @@
 									<!-- End of Cart Product -->
 									<div class="product product-cart">
 										<figure class="product-media">
-											<a href="product.html">
+											<a href="product.php">
 												<img src="images/cart/product-2.jpg" alt="product" width="80"
 													height="88" />
 											</a>
@@ -228,7 +228,7 @@
 											</button>
 										</figure>
 										<div class="product-detail">
-											<a href="product.html" class="product-name">Dark Blue Women’s
+											<a href="product.php" class="product-name">Dark Blue Women’s
 												Leomora Hat</a>
 											<div class="price-box">
 												<span class="product-quantity">1</span>
@@ -245,8 +245,8 @@
 								</div>
 								<!-- End of Cart Total -->
 								<div class="cart-action">
-									<a href="cart.html" class="btn btn-dark btn-link">View Cart</a>
-									<a href="checkout.html" class="btn btn-dark"><span>Go To Checkout</span></a>
+									<a href="cart.php" class="btn btn-dark btn-link">View Cart</a>
+									<a href="checkout.php" class="btn btn-dark"><span>Go To Checkout</span></a>
 								</div>
 								<!-- End of Cart Action -->
 							</div>
@@ -271,10 +271,10 @@
 							</form>
 						</div>
 						<!-- End Header Search -->
-						<a href="ajax/log.html" class="login-link d-lg-show mr-4"><i class="d-icon-user"></i></a>
+						<a href="ajax/log.php" class="login-link d-lg-show mr-4"><i class="d-icon-user"></i></a>
 
 						<div class="dropdown wishlist wishlist-dropdown off-canvas mr-4 d-lg-show">
-							<a href="wishlist.html" class="wishlist-toggle">
+							<a href="wishlist.php" class="wishlist-toggle">
 								<i class="d-icon-heart"></i>
 							</a>
 							<div class="canvas-overlay"></div>
@@ -288,7 +288,7 @@
 								<div class="products scrollable">
 									<div class="product product-wishlist">
 										<figure class="product-media">
-											<a href="product.html">
+											<a href="product.php">
 												<img src="images/wishlist/product-1.jpg" width="100" height="100"
 													alt="product" />
 											</a>
@@ -297,7 +297,7 @@
 											</button>
 										</figure>
 										<div class="product-detail">
-											<a href="product.html" class="product-name">Girl's Dark Bag</a>
+											<a href="product.php" class="product-name">Girl's Dark Bag</a>
 											<div class="price-box">
 												<span class="product-price">$84.00</span>
 											</div>
@@ -306,7 +306,7 @@
 									<!-- End of wishlist Product -->
 									<div class="product product-wishlist">
 										<figure class="product-media">
-											<a href="product.html">
+											<a href="product.php">
 												<img src="images/wishlist/product-2.jpg" width="100" height="100"
 													alt="product" />
 											</a>
@@ -315,7 +315,7 @@
 											</button>
 										</figure>
 										<div class="product-detail">
-											<a href="product.html" class="product-name">Women's Fashional Comforter
+											<a href="product.php" class="product-name">Women's Fashional Comforter
 											</a>
 											<div class="price-box">
 												<span class="product-price">$84.00</span>
@@ -343,7 +343,7 @@
 
 									<!-- End of wishlist Product -->
 								</div>
-								<a href="wishlist.html" class="btn btn-dark wishlist-btn mt-4"><span>Go To
+								<a href="wishlist.php" class="btn btn-dark wishlist-btn mt-4"><span>Go To
 										Wishlist</span></a>
 								<!-- End of Products  -->
 							</div>
@@ -365,7 +365,7 @@
 								<div class="products scrollable">
 									<div class="product product-cart">
 										<figure class="product-media">
-											<a href="product.html">
+											<a href="product.php">
 												<img src="images/cart/product-1.jpg" alt="product" width="80"
 													height="88" />
 											</a>
@@ -374,7 +374,7 @@
 											</button>
 										</figure>
 										<div class="product-detail">
-											<a href="product.html" class="product-name">Riode White Trends</a>
+											<a href="product.php" class="product-name">Riode White Trends</a>
 											<div class="price-box">
 												<span class="product-quantity">1</span>
 												<span class="product-price">$21.00</span>
@@ -385,7 +385,7 @@
 									<!-- End of Cart Product -->
 									<div class="product product-cart">
 										<figure class="product-media">
-											<a href="product.html">
+											<a href="product.php">
 												<img src="images/cart/product-2.jpg" alt="product" width="80"
 													height="88" />
 											</a>
@@ -394,7 +394,7 @@
 											</button>
 										</figure>
 										<div class="product-detail">
-											<a href="product.html" class="product-name">Dark Blue Women’s
+											<a href="product.php" class="product-name">Dark Blue Women’s
 												Leomora Hat</a>
 											<div class="price-box">
 												<span class="product-quantity">1</span>
@@ -411,8 +411,8 @@
 								</div>
 								<!-- End of Cart Total -->
 								<div class="cart-action">
-									<a href="cart.html" class="btn btn-dark btn-link">View Cart</a>
-									<a href="checkout.html" class="btn btn-dark"><span>Go To Checkout</span></a>
+									<a href="cart.php" class="btn btn-dark btn-link">View Cart</a>
+									<a href="checkout.php" class="btn btn-dark"><span>Go To Checkout</span></a>
 								</div>
 								<!-- End of Cart Action -->
 							</div>
@@ -569,14 +569,14 @@
 												<div class="products-col">
 													<div class="product product-list-sm">
 														<figure class="product-media">
-															<a href="product.html">
+															<a href="product.php">
 																<img src="images/shop/product-widget1.jpg" alt="product"
 																	width="100" height="100">
 															</a>
 														</figure>
 														<div class="product-details">
 															<h3 class="product-name">
-																<a href="product.html">Fashion Hiking Hat</a>
+																<a href="product.php">Fashion Hiking Hat</a>
 															</h3>
 															<div class="product-price">
 																<span class="price">$199.00</span>
@@ -591,14 +591,14 @@
 													</div>
 													<div class="product product-list-sm">
 														<figure class="product-media">
-															<a href="product.html">
+															<a href="product.php">
 																<img src="images/shop/product-widget2.jpg" alt="product"
 																	width="100" height="100">
 															</a>
 														</figure>
 														<div class="product-details">
 															<h3 class="product-name">
-																<a href="product.html">Men's Fashion Hood</a>
+																<a href="product.php">Men's Fashion Hood</a>
 															</h3>
 															<div class="product-price">
 																<span class="price">$19.00</span>
@@ -613,14 +613,14 @@
 													</div>
 													<div class="product product-list-sm">
 														<figure class="product-media">
-															<a href="product.html">
+															<a href="product.php">
 																<img src="images/shop/product-widget3.jpg" alt="product"
 																	width="100" height="100">
 															</a>
 														</figure>
 														<div class="product-details">
 															<h3 class="product-name">
-																<a href="product.html">Women's Summer Clothing</a>
+																<a href="product.php">Women's Summer Clothing</a>
 															</h3>
 															<div class="product-price">
 																<ins class="new-price">$99.00</ins><del
@@ -638,14 +638,14 @@
 												<div class="products-col">
 													<div class="product product-list-sm">
 														<figure class="product-media">
-															<a href="product.html">
+															<a href="product.php">
 																<img src="images/shop/product-widget1.jpg" alt="product"
 																	width="100" height="100">
 															</a>
 														</figure>
 														<div class="product-details">
 															<h3 class="product-name">
-																<a href="product.html">Fashion Hiking Hat</a>
+																<a href="product.php">Fashion Hiking Hat</a>
 															</h3>
 															<div class="product-price">
 																<span class="price">$199.00</span>
@@ -660,14 +660,14 @@
 													</div>
 													<div class="product product-list-sm">
 														<figure class="product-media">
-															<a href="product.html">
+															<a href="product.php">
 																<img src="images/shop/product-widget2.jpg" alt="product"
 																	width="100" height="100">
 															</a>
 														</figure>
 														<div class="product-details">
 															<h3 class="product-name">
-																<a href="product.html">Men's Fashion Hood</a>
+																<a href="product.php">Men's Fashion Hood</a>
 															</h3>
 															<div class="product-price">
 																<span class="price">$19.00</span>
@@ -682,14 +682,14 @@
 													</div>
 													<div class="product product-list-sm">
 														<figure class="product-media">
-															<a href="product.html">
+															<a href="product.php">
 																<img src="images/shop/product-widget3.jpg" alt="product"
 																	width="100" height="100">
 															</a>
 														</figure>
 														<div class="product-details">
 															<h3 class="product-name">
-																<a href="product.html">Women's Summer Clothing</a>
+																<a href="product.php">Women's Summer Clothing</a>
 															</h3>
 															<div class="product-price">
 																<ins class="new-price">$99.00</ins><del
@@ -739,8 +739,8 @@
 										</select>
 									</div>
 									<div class="toolbox-item toolbox-layout">
-										<a href="shop-list-mode.html" class="d-icon-mode-list btn-layout"></a>
-										<a href="shop.html" class="d-icon-mode-grid btn-layout active"></a>
+										<a href="shop-list-mode.php" class="d-icon-mode-list btn-layout"></a>
+										<a href="shop.php" class="d-icon-mode-grid btn-layout active"></a>
 									</div>
 								</div>
 							</nav>
@@ -748,7 +748,7 @@
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/1.jpg" alt="product" width="300"
 													height="338">
 											</a>
@@ -758,11 +758,11 @@
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Men</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Men</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Fashion Football Boots</a>
+												<a href="demo15-product.php">Fashion Football Boots</a>
 											</h3>
 											<div class="product-price">
 												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
@@ -772,7 +772,7 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
@@ -790,18 +790,18 @@
 								<div class="product-wrap">
 									<div class="product product-variable product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/2.jpg" alt="product" width="300"
 													height="338">
 											</a>
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Men</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Men</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Black Suede Training Shoes</a>
+												<a href="demo15-product.php">Black Suede Training Shoes</a>
 											</h3>
 											<div class="product-price">
 												<span class="price">$199.00-$210.00</span>
@@ -811,12 +811,12 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
 													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="demo15-product.html" class="btn-product btn-cart"
+												<a href="demo15-product.php" class="btn-product btn-cart"
 													title="Select Options"><span>Select Options</span></a>
 												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
 														class="d-icon-search"></i></a>
@@ -827,7 +827,7 @@
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/3.jpg" alt="product" width="300"
 													height="338">
 											</a>
@@ -837,11 +837,11 @@
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Men</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Men</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Fashion Watch</a>
+												<a href="demo15-product.php">Fashion Watch</a>
 											</h3>
 											<div class="product-price">
 												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
@@ -851,7 +851,7 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
@@ -869,18 +869,18 @@
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/4.jpg" alt="product" width="300"
 													height="338">
 											</a>
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Men</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Men</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Men Fashion Bag</a>
+												<a href="demo15-product.php">Men Fashion Bag</a>
 											</h3>
 											<div class="product-price">
 												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
@@ -890,7 +890,7 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
@@ -908,18 +908,18 @@
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/5.jpg" alt="product" width="300"
 													height="338">
 											</a>
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Men</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Men</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Black Leather Bag</a>
+												<a href="demo15-product.php">Black Leather Bag</a>
 											</h3>
 											<div class="product-price">
 												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
@@ -929,7 +929,7 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
@@ -947,7 +947,7 @@
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/6.jpg" alt="product" width="300"
 													height="338">
 											</a>
@@ -957,11 +957,11 @@
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Women</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Women</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Women's Fashion Shoes</a>
+												<a href="demo15-product.php">Women's Fashion Shoes</a>
 											</h3>
 											<div class="product-price">
 												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
@@ -971,7 +971,7 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
@@ -989,7 +989,7 @@
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/7.jpg" alt="product" width="300"
 													height="338">
 											</a>
@@ -999,11 +999,11 @@
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Men</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Men</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Brown Watch</a>
+												<a href="demo15-product.php">Brown Watch</a>
 											</h3>
 											<div class="product-price">
 												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
@@ -1013,7 +1013,7 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
@@ -1031,18 +1031,18 @@
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/8.jpg" alt="product" width="300"
 													height="338">
 											</a>
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Men</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Men</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Black Sport Watch</a>
+												<a href="demo15-product.php">Black Sport Watch</a>
 											</h3>
 											<div class="product-price">
 												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
@@ -1052,7 +1052,7 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
@@ -1070,18 +1070,18 @@
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/9.jpg" alt="product" width="300"
 													height="338">
 											</a>
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Men</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Men</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Men's Bag</a>
+												<a href="demo15-product.php">Men's Bag</a>
 											</h3>
 											<div class="product-price">
 												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
@@ -1091,7 +1091,7 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
@@ -1109,18 +1109,18 @@
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/10.jpg" alt="product" width="300"
 													height="338">
 											</a>
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Women</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Women</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Women Sport Shoes</a>
+												<a href="demo15-product.php">Women Sport Shoes</a>
 											</h3>
 											<div class="product-price">
 												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
@@ -1130,7 +1130,7 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
@@ -1148,7 +1148,7 @@
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/3.jpg" alt="product" width="300"
 													height="338">
 											</a>
@@ -1158,11 +1158,11 @@
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Men</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Men</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Fashion Watch</a>
+												<a href="demo15-product.php">Fashion Watch</a>
 											</h3>
 											<div class="product-price">
 												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
@@ -1172,7 +1172,7 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
@@ -1190,18 +1190,18 @@
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
-											<a href="demo15-product.html">
+											<a href="demo15-product.php">
 												<img src="images/demos/demo15/products/4.jpg" alt="product" width="300"
 													height="338">
 											</a>
 										</figure>
 										<div class="product-details">
 											<div class="product-cat">
-												<a href="demo15-shop.html">Men</a>,
-												<a href="demo15-shop.html">Fashion</a>
+												<a href="demo15-shop.php">Men</a>,
+												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.html">Men Fashion Bag</a>
+												<a href="demo15-product.php">Men Fashion Bag</a>
 											</h3>
 											<div class="product-price">
 												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
@@ -1211,7 +1211,7 @@
 													<span class="ratings" style="width:100%"></span>
 													<span class="tooltiptext tooltip-top"></span>
 												</div>
-												<a href="demo15-product.html" class="rating-reviews">( 6 reviews )</a>
+												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
 											</div>
 											<div class="product-action">
 												<a href="#" class="btn-product-icon btn-wishlist"
@@ -1259,7 +1259,7 @@
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-xl-5col col-lg-3">
-							<a href="demo15.html" class="logo-footer">
+							<a href="demo15.php" class="logo-footer">
 								<img src="images/demos/demo15/logo-footer.png" alt="logo-footer" width="154"
 									height="43" />
 							</a>
@@ -1308,7 +1308,7 @@
 								<h4 class="widget-title">My Account</h4>
 								<ul class="widget-body">
 									<li>
-										<a href="about-us.html">About Us</a>
+										<a href="about-us.php">About Us</a>
 									</li>
 									<li>
 										<a href="#">Order History</a>
@@ -1331,7 +1331,7 @@
 								<h4 class="widget-title">Customer Service</h4>
 								<ul class="widget-body">
 									<li>
-										<a href="about-us.html">About Us</a>
+										<a href="about-us.php">About Us</a>
 									</li>
 									<li>
 										<a href="#">Order History</a>
@@ -1354,16 +1354,16 @@
 								<h4 class="widget-title">Contact Info</h4>
 								<ul class="widget-body">
 									<li>
-										<a href="login.html">Sign In</a>
+										<a href="login.php">Sign In</a>
 									</li>
 									<li>
-										<a href="cart.html">View Cart</a>
+										<a href="cart.php">View Cart</a>
 									</li>
 									<li>
-										<a href="wishlist.html">My Wishlist</a>
+										<a href="wishlist.php">My Wishlist</a>
 									</li>
 									<li>
-										<a href="order.html">Track My Order</a>
+										<a href="order.php">Track My Order</a>
 									</li>
 									<li>
 										<a href="#">Help</a>
@@ -1383,7 +1383,7 @@
 												<span class="post-month">JAN</span>
 											</div>
 											<div class="post-details">
-												<h4 class="post-title"><a href="post-single.html">Quisque volutpat
+												<h4 class="post-title"><a href="post-single.php">Quisque volutpat
 														mattiseros sollicitudin leo</a></h4>
 											</div>
 										</div>
@@ -1395,7 +1395,7 @@
 												<span class="post-month">JAN</span>
 											</div>
 											<div class="post-details">
-												<h4 class="post-title"><a href="post-single.html">Utaliquam sollicitudin
+												<h4 class="post-title"><a href="post-single.php">Utaliquam sollicitudin
 														leo quisque volutpat mattiseros</a></h4>
 											</div>
 										</div>
@@ -1407,7 +1407,7 @@
 												<span class="post-month">JAN</span>
 											</div>
 											<div class="post-details">
-												<h4 class="post-title"><a href="post-single.html">Fusce pellentesque
+												<h4 class="post-title"><a href="post-single.php">Fusce pellentesque
 														suscipit quisque volutpat mattiseros</a></h4>
 											</div>
 										</div>
@@ -1419,7 +1419,7 @@
 												<span class="post-month">JAN</span>
 											</div>
 											<div class="post-details">
-												<h4 class="post-title"><a href="post-single.html">In culpa qui officia
+												<h4 class="post-title"><a href="post-single.php">In culpa qui officia
 														deserunt mollit anim id est laborum</a></h4>
 											</div>
 										</div>
@@ -1461,11 +1461,11 @@
             <i class="d-icon-home"></i>
             <span>Home</span>
         </a>
-        <a href="shop.html" class="sticky-link">
+        <a href="shop.php" class="sticky-link">
             <i class="d-icon-volume"></i>
             <span>Categories</span>
         </a>
-        <a href="wishlist.html" class="sticky-link">
+        <a href="wishlist.php" class="sticky-link">
             <i class="d-icon-heart"></i>
             <span>Wishlist</span>
         </a>
@@ -1555,7 +1555,7 @@
                     if(session_start() AND isset($_SESSION['register_id'])){
                     ?>
                     <li>
-                        <a href="account.html">
+                        <a href="account.php">
                             <i class="fas fa-regular fa-user"></i>
                             <span><?php echo " ".$_SESSION['register_name'] ;?></span>
                         </a>

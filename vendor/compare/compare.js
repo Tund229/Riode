@@ -55,14 +55,14 @@ window.Riode || (window.Riode = {});
                     $dropdown = $('.header .compare-dropdown'),
                     $html = '';
                 if ($count.length) {
-                    var qty = $count.html();
+                    var qty = $count.php();
                     qty = qty.replace(/[^0-9]/, '');
                     qty = parseInt(qty) + 1;
-                    $count.html(qty);
+                    $count.php(qty);
                 }
 
                 if ($dropdown.find('.empty-msg').length) {
-                    $dropdown.find('.widget_compare_content').html($('script.riode-minicompare-list-html').html());
+                    $dropdown.find('.widget_compare_content').php($('script.riode-minicompare-list-html').php());
                 }
                 $dropdown.find('.compare-list').append();
             }
@@ -75,16 +75,16 @@ window.Riode || (window.Riode = {});
                 var $count = $('.header .compare-open').find('.compare-count'),
                     $dropdown = $('.header .compare-dropdown');
                 if ($count.length) {
-                    var qty = $count.html();
+                    var qty = $count.php();
                     qty = qty.replace(/[^0-9]/, '');
                     qty = parseInt(qty) - 1;
-                    $count.html(qty);
+                    $count.php(qty);
                 }
 
                 if ($dropdown.find('.mini-item').length > 1) {
                     $dropdown.find('.remove_from_compare[data-product_id="' + prod_id + '"]').closest('.mini-item').remove();
                 } else {
-                    $dropdown.find('.widget_compare_content').html($('script.riode-minicompare-no-item-html').html());
+                    $dropdown.find('.widget_compare_content').php($('script.riode-minicompare-no-item-html').php());
                 }
             }
         }
@@ -165,15 +165,15 @@ window.Riode || (window.Riode = {});
                         link: $product.find('.product-media > a').attr('href'),
                         image: $product.find('.product-media img').attr('src'),
                         title: $product.find('.product-title').text(),
-                        price: $product.find('.price').html()
+                        price: $product.find('.price').php()
                     };
                 } else if (args[1].closest('.riode-compare-table').length) { // inside compare page
                     var $product = args[1].closest('.compare-basic-info');
                     return {
                         link: $product.find('.product-title').attr('href'),
                         image: $product.find('.product-media img').attr('src'),
-                        title: $product.closest('.riode-compare-table').find('.compare-title .compare-value').eq(args[1].closest('.compare-value').index() - 1).find('.product-title').html(),
-                        price: $product.closest('.riode-compare-table').find('.compare-price .compare-value').eq(args[1].closest('.compare-value').index() - 1).html()
+                        title: $product.closest('.riode-compare-table').find('.compare-title .compare-value').eq(args[1].closest('.compare-value').index() - 1).find('.product-title').php(),
+                        price: $product.closest('.riode-compare-table').find('.compare-price .compare-value').eq(args[1].closest('.compare-value').index() - 1).php()
                     };
                 }
                 return {};

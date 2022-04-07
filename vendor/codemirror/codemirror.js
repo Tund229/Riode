@@ -970,7 +970,7 @@ THE SOFTWARE.
   }
 
   // Bidirectional ordering algorithm
-  // See http://unicode.org/reports/tr9/tr9-13.html for the algorithm
+  // See http://unicode.org/reports/tr9/tr9-13.php for the algorithm
   // that this (partially) implements.
 
   // One-char codes used for character types:
@@ -5160,7 +5160,7 @@ THE SOFTWARE.
   // It also indexes by height, and is used to convert between height
   // and line object, and to find the total height of the document.
   //
-  // See also http://marijnhaverbeke.nl/blog/codemirror-line-tree.html
+  // See also http://marijnhaverbeke.nl/blog/codemirror-line-tree.php
 
   function LeafChunk( lines ) {
     var this$1 = this;
@@ -9767,7 +9767,7 @@ THE SOFTWARE.
   function tokenCComment( stream, state ) {
     var maybeEnd = false, ch;
     while ( ( ch = stream.next() ) != null ) {
-      if ( maybeEnd && ch == "../index.html" ) {
+      if ( maybeEnd && ch == "../index.php" ) {
         state.tokenize = null;
         break;
       }
@@ -9809,7 +9809,7 @@ THE SOFTWARE.
     allowNested: true,
     tokenHooks: {
       "/": function ( stream, state ) {
-        if ( stream.eat( "../index.html" ) ) {
+        if ( stream.eat( "../index.php" ) ) {
           stream.skipToEnd();
           return [ "comment", "comment" ];
         } else if ( stream.eat( "*" ) ) {
@@ -9851,7 +9851,7 @@ THE SOFTWARE.
     allowNested: true,
     tokenHooks: {
       "/": function ( stream, state ) {
-        if ( stream.eat( "../index.html" ) ) {
+        if ( stream.eat( "../index.php" ) ) {
           stream.skipToEnd();
           return [ "comment", "comment" ];
         } else if ( stream.eat( "*" ) ) {
@@ -9975,7 +9975,7 @@ THE SOFTWARE.
   CodeMirror.defineMode( "xml", function ( editorConf, config_ ) {
     var indentUnit = editorConf.indentUnit
     var config = {}
-    var defaults = config_.htmlMode ? htmlConfig : xmlConfig
+    var defaults = config_.phpMode ? htmlConfig : xmlConfig
     for ( var prop in defaults ) config[ prop ] = defaults[ prop ]
     for ( var prop in config_ ) config[ prop ] = config_[ prop ]
 
@@ -10007,7 +10007,7 @@ THE SOFTWARE.
           state.tokenize = inBlock( "meta", "?>" );
           return "meta";
         } else {
-          type = stream.eat( "../index.html" ) ? "closeTag" : "openTag";
+          type = stream.eat( "../index.php" ) ? "closeTag" : "openTag";
           state.tokenize = inTag;
           return "tag bracket";
         }
@@ -10295,8 +10295,8 @@ THE SOFTWARE.
       blockCommentStart: "<!--",
       blockCommentEnd: "-->",
 
-      configuration: config.htmlMode ? "html" : "xml",
-      helperType: config.htmlMode ? "html" : "xml",
+      configuration: config.phpMode ? "html" : "xml",
+      helperType: config.phpMode ? "html" : "xml",
 
       skipAttribute: function ( state ) {
         if ( state.state == attrValueState )
@@ -10448,11 +10448,11 @@ THE SOFTWARE.
       } else if ( /\d/.test( ch ) ) {
         stream.match( /^\d*(?:\.\d*)?(?:[eE][+\-]?\d+)?/ );
         return ret( "number", "number" );
-      } else if ( ch == "../index.html" ) {
+      } else if ( ch == "../index.php" ) {
         if ( stream.eat( "*" ) ) {
           state.tokenize = tokenComment;
           return tokenComment( stream, state );
-        } else if ( stream.eat( "../index.html" ) ) {
+        } else if ( stream.eat( "../index.php" ) ) {
           stream.skipToEnd();
           return ret( "comment", "comment" );
         } else if ( expressionAllowed( stream, state, 1 ) ) {
@@ -11202,9 +11202,9 @@ THE SOFTWARE.
       tags.script.unshift( [ "type", configScript[ i ].matches, configScript[ i ].mode ] )
 
     function html( stream, state ) {
-      var style = htmlMode.token( stream, state.htmlState ), tag = /\btag\b/.test( style ), tagName
+      var style = htmlMode.token( stream, state.phpState ), tag = /\btag\b/.test( style ), tagName
       if ( tag && !/[<>\s\/]/.test( stream.current() ) &&
-        ( tagName = state.htmlState.tagName && state.htmlState.tagName.toLowerCase() ) &&
+        ( tagName = state.phpState.tagName && state.phpState.tagName.toLowerCase() ) &&
         tags.hasOwnProperty( tagName ) ) {
         state.inTag = tagName + " "
       } else if ( state.inTag && tag && />$/.test( stream.current() ) ) {
@@ -11222,7 +11222,7 @@ THE SOFTWARE.
           return maybeBackup( stream, endTag, state.localMode.token( stream, state.localState ) );
         };
         state.localMode = mode;
-        state.localState = CodeMirror.startState( mode, htmlMode.indent( state.htmlState, "" ) );
+        state.localState = CodeMirror.startState( mode, htmlMode.indent( state.phpState, "" ) );
       } else if ( state.inTag ) {
         state.inTag += stream.current()
         if ( stream.eol() ) state.inTag += " "
@@ -11244,7 +11244,7 @@ THE SOFTWARE.
         return {
           token: state.token, inTag: state.inTag,
           localMode: state.localMode, localState: local,
-          htmlState: CodeMirror.copyState( htmlMode, state.htmlState )
+          htmlState: CodeMirror.copyState( htmlMode, state.phpState )
         };
       },
 
@@ -11254,7 +11254,7 @@ THE SOFTWARE.
 
       indent: function ( state, textAfter ) {
         if ( !state.localMode || /^\s*<\//.test( textAfter ) )
-          return htmlMode.indent( state.htmlState, textAfter );
+          return htmlMode.indent( state.phpState, textAfter );
         else if ( state.localMode.indent )
           return state.localMode.indent( state.localState, textAfter );
         else
@@ -11262,7 +11262,7 @@ THE SOFTWARE.
       },
 
       innerMode: function ( state ) {
-        return { state: state.localState || state.htmlState, mode: state.localMode || htmlMode };
+        return { state: state.localState || state.phpState, mode: state.localMode || htmlMode };
       }
     };
   }, "xml", "javascript", "css" );

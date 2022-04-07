@@ -727,7 +727,7 @@ var console = window.console;
  * htmlInit( Widget, 'widgetName' )
  * options are parsed from data-namespace-options
  */
-utils.htmlInit = function( WidgetClass, namespace ) {
+utils.phpInit = function( WidgetClass, namespace ) {
   utils.docReady( function() {
     var dashedNamespace = utils.toDashed( namespace );
     var dataAttr = 'data-' + dashedNamespace;
@@ -2207,7 +2207,7 @@ Outlayer.create = function( namespace, options ) {
 
   // -------------------------- declarative -------------------------- //
 
-  utils.htmlInit( Layout, namespace );
+  utils.phpInit( Layout, namespace );
 
   // -------------------------- jQuery bridge -------------------------- //
 

@@ -59,7 +59,7 @@ window.Riode = {};
             imageSrc: '',
             imageLink: '#',
             name: '',
-            nameLink: '#', // 'product.html',
+            nameLink: '#', // 'product.php',
             price: '',
             count: null,
             rating: null,
@@ -214,7 +214,7 @@ window.Riode = {};
             paddingOffsetBottom: 0,
         },
         templateCartAddedAlert: '<div class="alert alert-simple alert-btn cart-added-alert">' +
-            '<a href="cart.html" class="btn btn-success btn-md">View Cart</a>' +
+            '<a href="cart.php" class="btn btn-success btn-md">View Cart</a>' +
             '<span>"{{name}}" has been added to your cart.</span>' +
             '<button type="button" class="btn btn-link btn-close"><i class="d-icon-times"></i></button>' +
             '</div>',
@@ -1421,7 +1421,7 @@ window.Riode = {};
                 message: 'Someone Purchased',
                 productClass: 'product-cart',
                 name: 'Daisy Shoes Sonia by Sonia-Blue',
-                nameLink: 'product.html',
+                nameLink: 'product.php',
                 imageSrc: 'images/cart/product-1.jpg',
                 isPurchased: true
             }, function ($box) {
@@ -1938,10 +1938,10 @@ window.Riode = {};
                         nameLink: $product.find('.product-name > a').attr('href'),
                         imageSrc: $product.find('.product-image img').eq(0).attr('src'),
                         imageLink: $product.find('.product-name > a').attr('href'),
-                        price: $product.find('.product-variation-price').length > 0 ? $product.find('.product-variation-price').children('span').html() : $product.find('.product-price .price').html(),
+                        price: $product.find('.product-variation-price').length > 0 ? $product.find('.product-variation-price').children('span').php() : $product.find('.product-price .price').php(),
 
                         count: $product.find('.quantity').val(),
-                        actionTemplate: '<div class="action-group d-flex mt-3"><a href="cart.html" class="btn btn-sm btn-outline btn-primary btn-rounded mr-2">View Cart</a><a href="checkout.html" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
+                        actionTemplate: '<div class="action-group d-flex mt-3"><a href="cart.php" class="btn btn-sm btn-outline btn-primary btn-rounded mr-2">View Cart</a><a href="checkout.php" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
                     });
                 }
             });
@@ -1967,9 +1967,9 @@ window.Riode = {};
                         nameLink: $product.find('.product-name > a').attr('href'),
                         imageSrc: $product.find('.product-image img').eq(0).attr('src'),
                         imageLink: $product.find('.product-name > a').attr('href'),
-                        price: $product.find('.product-variation-price').length > 0 ? $product.find('.product-variation-price').children('span').html() : $product.find('.product-price .price').html(),
+                        price: $product.find('.product-variation-price').length > 0 ? $product.find('.product-variation-price').children('span').php() : $product.find('.product-price .price').php(),
                         count: $product.find('.quantity').val(),
-                        actionTemplate: '<div class="action-group d-flex mt-3"><a href="compare.html" class="btn btn-sm btn-outline btn-primary btn-rounded mr-2">Compare</a><a href="checkout.html" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
+                        actionTemplate: '<div class="action-group d-flex mt-3"><a href="compare.php" class="btn btn-sm btn-outline btn-primary btn-rounded mr-2">Compare</a><a href="checkout.php" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
                     });
                 }
             });
@@ -2135,9 +2135,9 @@ window.Riode = {};
                     nameLink: $product.find('.product-name > a').attr('href'),
                     imageSrc: $product.find('.product-image img').eq(0).attr('src'),
                     imageLink: $product.find('.product-name > a').attr('href'),
-                    price: $product.find('.product-variation-price').length > 0 ? $product.find('.product-variation-price').children('span').html() : $product.find('.product-price').html(),
+                    price: $product.find('.product-variation-price').length > 0 ? $product.find('.product-variation-price').children('span').php() : $product.find('.product-price').php(),
                     count: $product.find('.quantity').val(),
-                    actionTemplate: '<div class="action-group d-flex mt-3"><a href="compare.html" class="btn btn-sm btn-outline btn-primary btn-rounded mr-2">Compare</a><a href="checkout.html" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
+                    actionTemplate: '<div class="action-group d-flex mt-3"><a href="compare.php" class="btn btn-sm btn-outline btn-primary btn-rounded mr-2">Compare</a><a href="checkout.php" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
                 });
             }
         }
@@ -2250,10 +2250,10 @@ window.Riode = {};
             setTimeout(function () {
                 $this
                     .removeClass('load-more-overlay loading')
-                    .html('<i class="d-icon-heart-full"></i> Browse wishlist')
+                    .php('<i class="d-icon-heart-full"></i> Browse wishlist')
                     .addClass('added')
                     .attr('title', 'Browse wishlist')
-                    .attr('href', 'wishlist.html');
+                    .attr('href', 'wishlist.php');
             }, 500);
         }
         function reviewOpenToggler() {
@@ -2980,7 +2980,7 @@ window.Riode = {};
                 if (0 == $demos.children().length) {
                     Riode.doLoading($content);
                     $.ajax({
-                        url: "ajax/demos-list.html",
+                        url: "ajax/demos-list.php",
                         method: 'post',
                         data: {
                             action: "riode_demos_list",
@@ -2988,7 +2988,7 @@ window.Riode = {};
                         success: function (data) {
                             if (data) {
                                 Riode.endLoading($content);
-                                $demos.html(data);
+                                $demos.php(data);
                             }
                         }
                     })
@@ -3443,7 +3443,7 @@ window.Riode = {};
                     //dark theme
                     Riode.popup({
                         items: {
-                            src: "ajax/quickview-dark.html"
+                            src: "ajax/quickview-dark.php"
                         },
                         callbacks: {
                             ajaxContentAdded: function () {
@@ -3457,7 +3457,7 @@ window.Riode = {};
                     //light theme
                     Riode.popup({
                         items: {
-                            src: "ajax/quickview.html"
+                            src: "ajax/quickview.php"
                         },
                         callbacks: {
                             ajaxContentAdded: function () {
@@ -3496,7 +3496,7 @@ window.Riode = {};
                         productPrice,
                         $productName;
                     if ($compareCol.length > 0) {
-                        productPrice = $('.riode-compare-table > .compare-row').eq(2).children().eq($compareCol.index()).find('.product-price .new-price, .product-price .price').html();
+                        productPrice = $('.riode-compare-table > .compare-row').eq(2).children().eq($compareCol.index()).find('.product-price .new-price, .product-price .price').php();
                         $productName = $('.riode-compare-table > .compare-row').eq(1).children().eq($compareCol.index());
                         // if not product single, then open minipopup
                         $product.hasClass('product-single') ||
@@ -3509,7 +3509,7 @@ window.Riode = {};
                                 imageLink: $productName.find(' a ').attr('href'),
                                 price: productPrice,
                                 count: $product.find('.quantity').length > 0 ? $product.find('.quantity').val() : 1,
-                                actionTemplate: '<div class="action-group d-flex"><a href="cart.html" class="btn btn-sm btn-outline btn-primary btn-rounded">View Cart</a><a href="checkout.html" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
+                                actionTemplate: '<div class="action-group d-flex"><a href="cart.php" class="btn btn-sm btn-outline btn-primary btn-rounded">View Cart</a><a href="checkout.php" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
                             });
                     } else {
                         // if not product single, then open minipopup
@@ -3521,9 +3521,9 @@ window.Riode = {};
                                 nameLink: $product.find('.product-name > a').attr('href'),
                                 imageSrc: $product.find('.product-media img').attr('src'),
                                 imageLink: $product.find('.product-name > a').attr('href'),
-                                price: $product.find('.product-price .new-price, .product-price .price').html(),
+                                price: $product.find('.product-price .new-price, .product-price .price').php(),
                                 count: $product.find('.quantity').length > 0 ? $product.find('.quantity').val() : 1,
-                                actionTemplate: '<div class="action-group d-flex"><a href="cart.html" class="btn btn-sm btn-outline btn-primary btn-rounded">View Cart</a><a href="checkout.html" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
+                                actionTemplate: '<div class="action-group d-flex"><a href="cart.php" class="btn btn-sm btn-outline btn-primary btn-rounded">View Cart</a><a href="checkout.php" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
                             });
                     }
                 })
@@ -3539,9 +3539,9 @@ window.Riode = {};
                         nameLink: $tooltip.find('.tooltip-name > a').attr('href'),
                         imageSrc: $tooltip.find('.tooltip-media img').attr('src'),
                         imageLink: $tooltip.find('.tooltip-name > a').attr('href'),
-                        price: $tooltip.find('.tooltip-price .new-price, .tooltip-price .price').html(),
+                        price: $tooltip.find('.tooltip-price .new-price, .tooltip-price .price').php(),
                         count: $tooltip.find('.quantity').length > 0 ? $tooltip.find('.quantity').val() : 1,
-                        actionTemplate: '<div class="action-group d-flex"><a href="cart.html" class="btn btn-sm btn-outline btn-primary btn-rounded">View Cart</a><a href="checkout.html" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
+                        actionTemplate: '<div class="action-group d-flex"><a href="cart.php" class="btn btn-sm btn-outline btn-primary btn-rounded">View Cart</a><a href="checkout.php" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
                     });
                 });
         },
@@ -3575,9 +3575,9 @@ window.Riode = {};
                             nameLink: $product.find('.product-name > a').attr('href'),
                             imageSrc: $product.find('.product-media img').attr('src'),
                             imageLink: $product.find('.product-name > a').attr('href'),
-                            price: $product.find('.product-price .new-price, .product-price .price').html(),
+                            price: $product.find('.product-price .new-price, .product-price .price').php(),
                             count: $product.find('.quantity').length > 0 ? $product.find('.quantity').val() : 1,
-                            actionTemplate: '<div class="action-group d-flex"><a href="compare.html" class="btn btn-sm btn-outline btn-primary btn-rounded">Compare</a><a href="checkout.html" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
+                            actionTemplate: '<div class="action-group d-flex"><a href="compare.php" class="btn btn-sm btn-outline btn-primary btn-rounded">Compare</a><a href="checkout.php" class="btn btn-sm btn-primary btn-rounded">Check Out</a></div>'
                         });
                 });
         },
@@ -3617,7 +3617,7 @@ window.Riode = {};
             $('.btn-load').on('click', function (e) {
                 var $this = $(this),
                     $wrapper = $($this.data('load-to')),
-                    loadText = $this.html();
+                    loadText = $this.php();
 
                 $this.text('Loading ...');
                 $this.addClass('btn-loading');
@@ -3635,7 +3635,7 @@ window.Riode = {};
                             } else {
                                 $wrapper.append($newItems);
                             }
-                            $this.html(loadText);
+                            $this.php(loadText);
 
                             var loadCount = parseInt($this.data('load-count') ? $this.data('load-count') : 0);
                             $this.data('load-count', ++loadCount);
@@ -3659,7 +3659,7 @@ window.Riode = {};
                 , top;
             var url = $($obj).data('url');
             if (!url) {
-                url = 'ajax/ajax-products.html';
+                url = 'ajax/ajax-products.php';
             }
             var loadProducts = function (e) {
                 if (window.pageYOffset > top + $wrapper.outerHeight() - window.innerHeight - 150 && 'loading' != $wrapper.data('load-state')) {
