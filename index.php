@@ -164,7 +164,7 @@
                                                                     for="signin-remember">Remember
                                                                     me</label>
                                                             </div>
-                                                            <a href="#" class="lost-link">Lost your password?</a>
+                                                            <a href="reset-password.php" class="lost-link">Lost your password?</a>
                                                         </div>
                                                         <button class="btn btn-dark btn-block btn-rounded"
                                                             type="submit" name="s_submit">Login</button>
