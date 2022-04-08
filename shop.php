@@ -461,7 +461,7 @@
 			<div class="page-content mb-10">
 				<div class="container">
 					<div class="row main-content-wrap gutter-lg">
-						<aside
+					<aside
 							class="col-lg-3 sidebar sidebar-fixed sidebar-toggle-remain shop-sidebar sticky-sidebar-wrapper">
 							<div class="sidebar-overlay">
 								<a class="sidebar-close" href="#"><i class="d-icon-times"></i></a>
@@ -565,7 +565,7 @@
 												'loop': true,
 												'nav': true,
 												'dots': false,
-'margin': 20											}">
+					'margin': 20											}">
 												<div class="products-col">
 													<div class="product product-list-sm">
 														<figure class="product-media">
@@ -709,7 +709,7 @@
 									</div><!-- End Widget Products -->
 								</div>
 							</div>
-						</aside>
+				</aside>
 						<div class="col-lg-9 main-content">
 							<nav class="toolbox sticky-toolbox sticky-content fix-top">
 								<div class="toolbox-left">
@@ -745,6 +745,13 @@
 								</div>
 							</nav>
 							<div class="row cols-2 cols-sm-3 cols-md-4 product-wrapper split-line gutter-sm">
+								<?php 
+									$sql= " SELECT * FROM produits";
+									$result = mysqli_query($conn, $sql);
+								?>
+								<?php 
+									foreach($result as $val){
+								?>
 								<div class="product-wrap">
 									<div class="product product-slideup text-center">
 										<figure class="product-media">
@@ -762,10 +769,10 @@
 												<a href="demo15-shop.php">Fashion</a>
 											</div>
 											<h3 class="product-name">
-												<a href="demo15-product.php">Fashion Football Boots</a>
+												<a href="product.php?nom=<?php echo $val["nom"] ?>"> <?php echo $val["nom"]; ?> </a>
 											</h3>
 											<div class="product-price">
-												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
+												<ins class="new-price">$ <?php echo $val["prix"]; ?> </ins><del class="old-price">$210.00</del>
 											</div>
 											<div class="ratings-container">
 												<div class="ratings-full">
@@ -787,446 +794,13 @@
 										</div>
 									</div>
 								</div>
-								<div class="product-wrap">
-									<div class="product product-variable product-slideup text-center">
-										<figure class="product-media">
-											<a href="demo15-product.php">
-												<img src="images/demos/demo15/products/2.jpg" alt="product" width="300"
-													height="338">
-											</a>
-										</figure>
-										<div class="product-details">
-											<div class="product-cat">
-												<a href="demo15-shop.php">Men</a>,
-												<a href="demo15-shop.php">Fashion</a>
-											</div>
-											<h3 class="product-name">
-												<a href="demo15-product.php">Black Suede Training Shoes</a>
-											</h3>
-											<div class="product-price">
-												<span class="price">$199.00-$210.00</span>
-											</div>
-											<div class="ratings-container">
-												<div class="ratings-full">
-													<span class="ratings" style="width:100%"></span>
-													<span class="tooltiptext tooltip-top"></span>
-												</div>
-												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
-											</div>
-											<div class="product-action">
-												<a href="#" class="btn-product-icon btn-wishlist"
-													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="demo15-product.php" class="btn-product btn-cart"
-													title="Select Options"><span>Select Options</span></a>
-												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
-														class="d-icon-search"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="product-wrap">
-									<div class="product product-slideup text-center">
-										<figure class="product-media">
-											<a href="demo15-product.php">
-												<img src="images/demos/demo15/products/3.jpg" alt="product" width="300"
-													height="338">
-											</a>
-											<div class="product-label-group">
-												<label class="product-label label-sale">27% off</label>
-											</div>
-										</figure>
-										<div class="product-details">
-											<div class="product-cat">
-												<a href="demo15-shop.php">Men</a>,
-												<a href="demo15-shop.php">Fashion</a>
-											</div>
-											<h3 class="product-name">
-												<a href="demo15-product.php">Fashion Watch</a>
-											</h3>
-											<div class="product-price">
-												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
-											</div>
-											<div class="ratings-container">
-												<div class="ratings-full">
-													<span class="ratings" style="width:100%"></span>
-													<span class="tooltiptext tooltip-top"></span>
-												</div>
-												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
-											</div>
-											<div class="product-action">
-												<a href="#" class="btn-product-icon btn-wishlist"
-													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="#" class="btn-product btn-cart" data-toggle="modal"
-													data-target="#addCartModal" title="Add to cart"><i
-														class="d-icon-bag"></i><span>add to
-														cart</span></a>
-												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
-														class="d-icon-search"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="product-wrap">
-									<div class="product product-slideup text-center">
-										<figure class="product-media">
-											<a href="demo15-product.php">
-												<img src="images/demos/demo15/products/4.jpg" alt="product" width="300"
-													height="338">
-											</a>
-										</figure>
-										<div class="product-details">
-											<div class="product-cat">
-												<a href="demo15-shop.php">Men</a>,
-												<a href="demo15-shop.php">Fashion</a>
-											</div>
-											<h3 class="product-name">
-												<a href="demo15-product.php">Men Fashion Bag</a>
-											</h3>
-											<div class="product-price">
-												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
-											</div>
-											<div class="ratings-container">
-												<div class="ratings-full">
-													<span class="ratings" style="width:100%"></span>
-													<span class="tooltiptext tooltip-top"></span>
-												</div>
-												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
-											</div>
-											<div class="product-action">
-												<a href="#" class="btn-product-icon btn-wishlist"
-													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="#" class="btn-product btn-cart" data-toggle="modal"
-													data-target="#addCartModal" title="Add to cart"><i
-														class="d-icon-bag"></i><span>add to
-														cart</span></a>
-												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
-														class="d-icon-search"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="product-wrap">
-									<div class="product product-slideup text-center">
-										<figure class="product-media">
-											<a href="demo15-product.php">
-												<img src="images/demos/demo15/products/5.jpg" alt="product" width="300"
-													height="338">
-											</a>
-										</figure>
-										<div class="product-details">
-											<div class="product-cat">
-												<a href="demo15-shop.php">Men</a>,
-												<a href="demo15-shop.php">Fashion</a>
-											</div>
-											<h3 class="product-name">
-												<a href="demo15-product.php">Black Leather Bag</a>
-											</h3>
-											<div class="product-price">
-												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
-											</div>
-											<div class="ratings-container">
-												<div class="ratings-full">
-													<span class="ratings" style="width:100%"></span>
-													<span class="tooltiptext tooltip-top"></span>
-												</div>
-												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
-											</div>
-											<div class="product-action">
-												<a href="#" class="btn-product-icon btn-wishlist"
-													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="#" class="btn-product btn-cart" data-toggle="modal"
-													data-target="#addCartModal" title="Add to cart"><i
-														class="d-icon-bag"></i><span>add to
-														cart</span></a>
-												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
-														class="d-icon-search"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="product-wrap">
-									<div class="product product-slideup text-center">
-										<figure class="product-media">
-											<a href="demo15-product.php">
-												<img src="images/demos/demo15/products/6.jpg" alt="product" width="300"
-													height="338">
-											</a>
-											<div class="product-label-group">
-												<label class="product-label label-new">new</label>
-											</div>
-										</figure>
-										<div class="product-details">
-											<div class="product-cat">
-												<a href="demo15-shop.php">Women</a>,
-												<a href="demo15-shop.php">Fashion</a>
-											</div>
-											<h3 class="product-name">
-												<a href="demo15-product.php">Women's Fashion Shoes</a>
-											</h3>
-											<div class="product-price">
-												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
-											</div>
-											<div class="ratings-container">
-												<div class="ratings-full">
-													<span class="ratings" style="width:100%"></span>
-													<span class="tooltiptext tooltip-top"></span>
-												</div>
-												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
-											</div>
-											<div class="product-action">
-												<a href="#" class="btn-product-icon btn-wishlist"
-													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="#" class="btn-product btn-cart" data-toggle="modal"
-													data-target="#addCartModal" title="Add to cart"><i
-														class="d-icon-bag"></i><span>add to
-														cart</span></a>
-												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
-														class="d-icon-search"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="product-wrap">
-									<div class="product product-slideup text-center">
-										<figure class="product-media">
-											<a href="demo15-product.php">
-												<img src="images/demos/demo15/products/7.jpg" alt="product" width="300"
-													height="338">
-											</a>
-											<div class="product-label-group">
-												<label class="product-label label-sale">27% off</label>
-											</div>
-										</figure>
-										<div class="product-details">
-											<div class="product-cat">
-												<a href="demo15-shop.php">Men</a>,
-												<a href="demo15-shop.php">Fashion</a>
-											</div>
-											<h3 class="product-name">
-												<a href="demo15-product.php">Brown Watch</a>
-											</h3>
-											<div class="product-price">
-												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
-											</div>
-											<div class="ratings-container">
-												<div class="ratings-full">
-													<span class="ratings" style="width:100%"></span>
-													<span class="tooltiptext tooltip-top"></span>
-												</div>
-												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
-											</div>
-											<div class="product-action">
-												<a href="#" class="btn-product-icon btn-wishlist"
-													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="#" class="btn-product btn-cart" data-toggle="modal"
-													data-target="#addCartModal" title="Add to cart"><i
-														class="d-icon-bag"></i><span>add to
-														cart</span></a>
-												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
-														class="d-icon-search"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="product-wrap">
-									<div class="product product-slideup text-center">
-										<figure class="product-media">
-											<a href="demo15-product.php">
-												<img src="images/demos/demo15/products/8.jpg" alt="product" width="300"
-													height="338">
-											</a>
-										</figure>
-										<div class="product-details">
-											<div class="product-cat">
-												<a href="demo15-shop.php">Men</a>,
-												<a href="demo15-shop.php">Fashion</a>
-											</div>
-											<h3 class="product-name">
-												<a href="demo15-product.php">Black Sport Watch</a>
-											</h3>
-											<div class="product-price">
-												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
-											</div>
-											<div class="ratings-container">
-												<div class="ratings-full">
-													<span class="ratings" style="width:100%"></span>
-													<span class="tooltiptext tooltip-top"></span>
-												</div>
-												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
-											</div>
-											<div class="product-action">
-												<a href="#" class="btn-product-icon btn-wishlist"
-													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="#" class="btn-product btn-cart" data-toggle="modal"
-													data-target="#addCartModal" title="Add to cart"><i
-														class="d-icon-bag"></i><span>add to
-														cart</span></a>
-												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
-														class="d-icon-search"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="product-wrap">
-									<div class="product product-slideup text-center">
-										<figure class="product-media">
-											<a href="demo15-product.php">
-												<img src="images/demos/demo15/products/9.jpg" alt="product" width="300"
-													height="338">
-											</a>
-										</figure>
-										<div class="product-details">
-											<div class="product-cat">
-												<a href="demo15-shop.php">Men</a>,
-												<a href="demo15-shop.php">Fashion</a>
-											</div>
-											<h3 class="product-name">
-												<a href="demo15-product.php">Men's Bag</a>
-											</h3>
-											<div class="product-price">
-												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
-											</div>
-											<div class="ratings-container">
-												<div class="ratings-full">
-													<span class="ratings" style="width:100%"></span>
-													<span class="tooltiptext tooltip-top"></span>
-												</div>
-												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
-											</div>
-											<div class="product-action">
-												<a href="#" class="btn-product-icon btn-wishlist"
-													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="#" class="btn-product btn-cart" data-toggle="modal"
-													data-target="#addCartModal" title="Add to cart"><i
-														class="d-icon-bag"></i><span>add to
-														cart</span></a>
-												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
-														class="d-icon-search"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="product-wrap">
-									<div class="product product-slideup text-center">
-										<figure class="product-media">
-											<a href="demo15-product.php">
-												<img src="images/demos/demo15/products/10.jpg" alt="product" width="300"
-													height="338">
-											</a>
-										</figure>
-										<div class="product-details">
-											<div class="product-cat">
-												<a href="demo15-shop.php">Women</a>,
-												<a href="demo15-shop.php">Fashion</a>
-											</div>
-											<h3 class="product-name">
-												<a href="demo15-product.php">Women Sport Shoes</a>
-											</h3>
-											<div class="product-price">
-												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
-											</div>
-											<div class="ratings-container">
-												<div class="ratings-full">
-													<span class="ratings" style="width:100%"></span>
-													<span class="tooltiptext tooltip-top"></span>
-												</div>
-												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
-											</div>
-											<div class="product-action">
-												<a href="#" class="btn-product-icon btn-wishlist"
-													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="#" class="btn-product btn-cart" data-toggle="modal"
-													data-target="#addCartModal" title="Add to cart"><i
-														class="d-icon-bag"></i><span>add to
-														cart</span></a>
-												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
-														class="d-icon-search"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="product-wrap">
-									<div class="product product-slideup text-center">
-										<figure class="product-media">
-											<a href="demo15-product.php">
-												<img src="images/demos/demo15/products/3.jpg" alt="product" width="300"
-													height="338">
-											</a>
-											<div class="product-label-group">
-												<label class="product-label label-sale">27% off</label>
-											</div>
-										</figure>
-										<div class="product-details">
-											<div class="product-cat">
-												<a href="demo15-shop.php">Men</a>,
-												<a href="demo15-shop.php">Fashion</a>
-											</div>
-											<h3 class="product-name">
-												<a href="demo15-product.php">Fashion Watch</a>
-											</h3>
-											<div class="product-price">
-												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
-											</div>
-											<div class="ratings-container">
-												<div class="ratings-full">
-													<span class="ratings" style="width:100%"></span>
-													<span class="tooltiptext tooltip-top"></span>
-												</div>
-												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
-											</div>
-											<div class="product-action">
-												<a href="#" class="btn-product-icon btn-wishlist"
-													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="#" class="btn-product btn-cart" data-toggle="modal"
-													data-target="#addCartModal" title="Add to cart"><i
-														class="d-icon-bag"></i><span>add to
-														cart</span></a>
-												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
-														class="d-icon-search"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="product-wrap">
-									<div class="product product-slideup text-center">
-										<figure class="product-media">
-											<a href="demo15-product.php">
-												<img src="images/demos/demo15/products/4.jpg" alt="product" width="300"
-													height="338">
-											</a>
-										</figure>
-										<div class="product-details">
-											<div class="product-cat">
-												<a href="demo15-shop.php">Men</a>,
-												<a href="demo15-shop.php">Fashion</a>
-											</div>
-											<h3 class="product-name">
-												<a href="demo15-product.php">Men Fashion Bag</a>
-											</h3>
-											<div class="product-price">
-												<ins class="new-price">$199.00</ins><del class="old-price">$210.00</del>
-											</div>
-											<div class="ratings-container">
-												<div class="ratings-full">
-													<span class="ratings" style="width:100%"></span>
-													<span class="tooltiptext tooltip-top"></span>
-												</div>
-												<a href="demo15-product.php" class="rating-reviews">( 6 reviews )</a>
-											</div>
-											<div class="product-action">
-												<a href="#" class="btn-product-icon btn-wishlist"
-													title="Add to wishlist"><i class="d-icon-heart"></i></a>
-												<a href="#" class="btn-product btn-cart" data-toggle="modal"
-													data-target="#addCartModal" title="Add to cart"><i
-														class="d-icon-bag"></i><span>add to
-														cart</span></a>
-												<a href="#" class="btn-product-icon btn-quickview" title="Quick View"><i
-														class="d-icon-search"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
+								<?php
+									}
+								?>
 							</div>
+								
+							
+							
 							<nav class="toolbox toolbox-pagination justify-content-center">
 								<ul class="pagination">
 									<li class="page-item disabled">
